@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <img src="https://www.w3schools.com/images/w3jquery.gif" alt="jQuery" width="100" height="140">
+    <p>Click the button to insert text after the image.</p>
+    <button onclick="afterText()">Insert after</button>
+</body>
+<script>
+    const afterText = () => {
+        let text1 = '<span>Saaketh</span>' // create elements with html
+        let text2 = $('<b></b>').text(' Jayarama')   //create elements with jquery
+        let text3 = document.createElement('i') //create elements with dom
+        text3.innerHTML = ' is great'
+
+        $('img').before(text1)
+        $('img').after(text1, text2, text3)
+
+    }
+</script>
+
+</html>

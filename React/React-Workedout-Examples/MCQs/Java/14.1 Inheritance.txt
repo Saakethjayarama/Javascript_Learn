@@ -1,0 +1,133 @@
+1. Which of this keyword must be used to inherit a class?
+a) super
+b) this
+c) extent
+d) extends
+
+Answer d
+
+2. A class member declared protected becomes a member of subclass of which type?
+a) public member
+b) private member
+c) protected member
+d) static member
+
+Answer b
+
+3. Which of these is correct way of inheriting class A by class B?
+a) class B + class A {}
+b) class B inherits class A {}
+c) class B extends A {}
+d) class B extends class A {}
+
+Answer c
+
+4. Which two classes use the Shape class correctly?
+
+A. public class Circle implements Shape 
+   {
+    private int radius;
+   }
+B. public abstract class Circle extends Shape 
+   {
+    private int radius;
+   }
+C. public class Circle extends Shape 
+   {
+   private int radius;
+   public void draw();
+   }
+D. public abstract class Circle implements Shape 
+   {
+    private int radius;
+    public void draw();
+   }
+E. public class Circle extends Shape 
+   {
+    private int radius;
+    public void draw()
+    {
+     /* code here */
+    }
+   }
+F. public abstract class Circle implements Shape 
+   {
+     private int radius;
+     public void draw() 
+     { 
+      /* code here */ 
+     }
+   }
+a) B,E
+b) A,C
+c) C,E
+d) T,H
+
+Answer a
+
+5. What will be the output of the following Java program?
+
+    class A 
+    {
+        int i;
+        void display() 
+        {
+            System.out.println(i);
+        }
+    }    
+    class B extends A 
+    {
+        int j;
+        void display() 
+        {
+            System.out.println(j);
+        }
+    }    
+    class inheritance_demo 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.i=1;
+            obj.j=2;   
+            obj.display();     
+        }
+   }
+a) 0
+b) 1
+c) 2
+d) Compilation Error
+
+Answer c
+
+6. What will be the output of the following Java program?
+
+    class A 
+    {
+        int i;
+    }    
+    class B extends A 
+    {
+        int j;
+        void display() 
+        {
+            super.i = j + 1;
+            System.out.println(j + " " + i);
+        }
+    }    
+    class inheritance 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.i=1;
+            obj.j=2;   
+            obj.display();     
+        }
+   }
+a) 2 2
+b) 3 3
+c) 2 3
+d) 3 2
+
+Answer c

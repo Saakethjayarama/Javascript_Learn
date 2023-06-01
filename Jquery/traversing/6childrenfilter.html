@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div>
+        <span id="one">
+            Eee1
+        </span>
+        <span id="two">
+            Eee2
+        </span>
+        <span id="three">
+            Eee3
+        </span>
+        <span id="four">
+            Eee4
+        </span>
+        <span id="five">
+            Saaketh
+        </span>
+    </div>
+    <script>
+        $(() => {
+            let spans = $('div').children('span');
+            spans.each((index, element) => {
+                console.log($(element).text().trim());
+            })
+        })
+
+    </script>
+</body>
+
+</html>

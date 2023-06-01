@@ -1,0 +1,47 @@
+1. React uses
+a. Virtual DOM
+b. Component based architecture
+c. Both a and b
+d. None
+Answer c
+
+2.
+React is faster because
+a. It uses Virtual DOM
+b. Component based architecture
+c. Both a and b
+d. None
+Answer a
+
+3.
+Why is react faster than Angular
+a. Because it uses Virtual DOM
+b. Because of its Component based architecture
+c. Botha a and b
+d. None
+Answer a
+
+4.
+Which of the following is True for React
+a. Two way binding
+b. One way binding
+c. Three way binding
+d. All of the above
+Answer b
+
+5.
+What Scripting language does React use
+a. Javascript
+b. Typescript
+c. Both a and b
+d. None
+Answer c
+
+6.
+Does React support dependency Injection
+a. Depends on the version of React
+b. Yes
+c. No
+d. None
+Answer c
+  

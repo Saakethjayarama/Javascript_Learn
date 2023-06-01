@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Remove</title>
+</head>
+<body>
+    <script>
+        x = 0;
+        function add(){
+            ele = document.createElement("p");
+            content = document.createTextNode("Hey Tech!" + x);
+            x++;
+
+            ele.appendChild(content);
+
+            document.getElementById("content").appendChild(ele);
+        }
+
+        function del(){
+            document.getElementById("content").childNodes[1].remove();
+        }
+    </script>
+
+    <button onclick="add()">Add</button>
+    <button onclick = "del()">Del</button>
+    <div id="content">
+        
+    </div>
+
+    
+</body>
+</html>

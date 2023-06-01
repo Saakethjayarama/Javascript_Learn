@@ -1,0 +1,71 @@
+1.
+What are the two possible Logical Operator types?
+A) Bitwise Logical
+B) Boolean Logical
+C) Arithmetic Logical
+D) A and B
+
+Answer d
+
+2.
+Boolean logical operators in Java work with?
+A) true/false boolean data
+B) 1 and 0 of individual Bits
+C) characters of a String
+D) None of the above
+
+Answer a
+
+3.
+Bitwise logical operators in Java work with?
+A) true/false boolean data
+B) 0 and 1 individual bits of data
+C) Characters of a String
+D) None of the above
+
+Answer b
+
+4.
+In general Bitwise logical operators are simply called?
+A) Logical operators
+B) Bitwise operators
+C) Binary operators
+D) None of the above
+
+Answer b
+
+5.
+What is the input for Logical Operators?
+A) 1 and 0
+B) true / false
+C) char / String
+D) None of the above
+
+Answer b
+
+6.
+What is the output of any Logical operation in Java?
+A) 1 or 0
+B) true or false
+C) char or String
+D) None of the above
+
+Answer b
+
+7.
+Which is the Logical operator in Java that works with a Single Operand?
+A) Logical AND
+B) Logical OR
+C) Logical Exclusive OR
+D) Logical NOT
+
+Answer d
+
+8.
+Which among the following is a Logical Unary NOT operator in Java?
+A) ~
+B) !
+C) #
+D) ^
+
+Answer b

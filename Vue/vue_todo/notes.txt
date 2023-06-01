@@ -1,0 +1,23 @@
+To instlal vue 
+npm install @vue/cli
+
+To create vue project
+vue create project_name
+
+To start our server
+npm run serve
+
+To start the graphical user interface to create project
+vue ui
+
+component: {
+
+}
+props: {
+
+} 
+data() {
+    return {
+        
+    }
+}

@@ -1,0 +1,40 @@
+1.
+Who is responsible for integration testing?
+a. Developer
+b. Software Tester
+c. Specialist integration tester
+d. All the above
+Answer d
+
+
+2.
+Integration testing is
+a. Testing the application as a whole.
+b. Testing combination of units 
+c. Both a and b
+d. None
+Answer c
+
+3.
+What is the objective of integration testing?
+a. To verify that system is functioning according to specified requirements
+b. To verify that system meets user expectation and needs
+c. To verify that system separately testable modules are functioning properly
+d. All of the above
+Answer d
+
+4.
+Which approach is used for integration testing
+a. Down-Top
+b. Top-Down
+c. Both a and b
+d None
+Answer b
+
+5.
+Which of the following is Incorrect about Integration testing
+a. To verify that system is functioning according to specified requirements
+b. To verify that system meets user expectation and needs
+c. To verify that system separately testable modules are functioning properly
+d. None
+Answer d

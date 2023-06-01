@@ -1,0 +1,63 @@
+1.
+Routing in react can be done using package
+a. react-router
+b. router
+c. react-dom
+d. None
+Answer a
+
+2.
+How to install react-router
+a. node install react-router
+b. react install react-router
+c. npm install react-router
+d. both a and c
+Answer c
+
+3.
+How are routes created in react
+a. using Route component
+b. using React functional component
+c. using React class component
+d. All of the above
+Answer a
+
+4.
+Which of the following is used to create Routes in react
+a. React.Component
+b. React
+c. Switch
+d. None
+Answer c
+
+5.
+Which of the following is not used to create routes in react
+a. Switch
+b. BrowserRouter
+c. Route
+d. None
+Answer d
+
+6.
+Which prop of Route defines route
+a. route
+b. path
+c. routPath
+d. pathRoute
+Answer b
+
+7.
+Which prop is used to exactly match path
+a. route
+b. path
+c. exact
+d. match
+Answer b
+
+8.
+Which of the following describes routing param
+a. '/blog/id'
+b. ':/blog/id'
+c. '/blog/;id'
+d. '/blog/:id'
+Answer d

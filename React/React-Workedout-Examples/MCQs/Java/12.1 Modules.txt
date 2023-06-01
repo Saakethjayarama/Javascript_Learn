@@ -1,0 +1,48 @@
+1. Java packages and Fortran subroutine are examples of__________
+a) Functions
+b) Modules
+c) Classes
+d) Sub procedures
+
+Answer b
+
+2. Which of the property of software modularity is incorrect with respect to benefits software modularity?
+a) Modules are robust
+b) Module can use other modules
+c) Modules Can be separately compiled and stored in a library
+d) Modules are mostly dependent
+
+Answer d
+
+3. _______________ is a measure of the degree of interdependence between modules.
+a) Cohesion
+b) Coupling
+c) None of the mentioned
+d) All of the mentioned
+
+Answer b
+
+4. Which of the following is the best type of module coupling?
+a) Control Coupling
+b) Stamp Coupling
+c) Data Coupling
+d) Content Coupling
+
+Answer c
+
+5. Which of the following is the worst type of module coupling?
+a) Control Coupling
+b) Stamp Coupling
+c) External Coupling
+d) Content Coupling
+
+Answer c
+
+6. Which of the following is the worst type of module cohesion?
+a) Logical Cohesion
+b) Temporal Cohesion
+c) Functional Cohesion
+d) Coincidental Cohesion
+
+Answer d
+

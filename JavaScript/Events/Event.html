@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <script src = "event.js"></script>
+</head>
+<body onload="load()">
+    <div id="main"></div>
+    <input type = "text" id = "name" onchange="toUpper()">
+    <button onclick="clicked()">Click on it</button>
+    <div id="hower" onmouseout="mouseout()">
+        <button onmouseover="mouseover()"  id="btn-mouse">Go over it</button>
+    </div>
+    <button onkeydown="keydown()">key down</button>
+</body>
+</html>

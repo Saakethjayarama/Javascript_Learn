@@ -1,0 +1,47 @@
+1. Which of these class is superclass of String and StringBuffer class?
+a) java.util
+b) java.lang
+c) ArrayList
+d) None of the mentioned
+
+Answer b
+
+2. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) ||
+
+Answer a
+
+3. Which of this method of class String is used to obtain a length of String object?
+a) get()
+b) Sizeof()
+c) lengthof()
+d) length()
+
+Answer d
+
+4. Which of these method of class String is used to extract a single character from a String object?
+a) CHARAT()
+b) chatat()
+c) charAt()
+d) ChatAt()
+
+Answer c
+
+5. Which of these constructors is used to create an empty String object?
+a) String()
+b) String(void)
+c) String(0)
+d) None of the mentioned
+
+Answer a
+
+6. Which of these is an incorrect statement?
+a) String objects are immutable, they cannot be changed
+b) String object can point to some other reference of String variable
+c) StringBuffer class is used to store string in a buffer for later use
+d) None of the mentioned
+
+Answer c

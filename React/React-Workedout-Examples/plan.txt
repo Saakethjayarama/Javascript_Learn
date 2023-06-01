@@ -1,0 +1,159 @@
+Yoga centre
+Kalyani Motors
+    Model Celerio  : LXi     VXi      _Xi   
+          DZire      LXi     VXi      _Xi
+          Ciaz       LXi     VXi      _Xi
+          Breeza
+
+Color : 
+
+    Specifications
+
+    No of persons  : 5
+    No of gears    : 5
+    Height :
+    Width :
+    Length :
+    Weight :
+    Fuel tank capacity : 
+    Reserve capacity   :
+    Turning radius 
+    Torque             :
+    Alloy wheel      ___-     ____     Yes
+
+Hero cycles
+Jewelley(Tanishq, Malabar golds, Bheema Jewelelry, Keishnaih Chetty)
+Bikewale(Bike comparison) 100 cc  - Honda, Bajaj, Hero Motors, TVS, Suzuki
+---------------------------------------------------------------------------
+edchemy.in
+  
+
+
+--------------------------------------------
+1. TextBoxDemo  Done
+
+Name : -----
+
+    Submit
+
+Welcome, ------
+
+--------------------------------------------
+2. NumberDemo  Done
+
+Number : _____ 0/1/2
+
+     Submit
+
+One/Two/Three
+
+---------------------------------------------
+
+3. RadioButtonDemo  Done
+
+Gender :  Male    Female
+  
+        Submit
+
+Male/Female selected
+
+----------------------------------------------
+4. QualificationDemo  Done
+
+Qualification :  Drop down list box
+                 BE-CS
+                 BE-ME
+                 BSc
+                 BCom
+
+            Submit
+
+BE-CS Selected
+
+------------------------------------------------
+5. CheckBoxDemo  Done
+
+Languages :  C    C++   Java    PHP   Python
+
+                Submit
+
+C Java Selected
+
+-------------------------------------------------
+6. MulTableDemo Done
+
+Number : ____  1/2/3 .... 10
+
+     Submit
+
+4 * 1 = 4
+4 * 2 = 8
+
+-------------------------------------------------
+7. AddDemo Done
+
+     Operand 1 : _____
+
+     Operand 2 : _____
+
+         Submit
+
+      Result
+------------------------------------------------------
+8. CalculatorDemo Done
+
+     Operand 1 : _____
+
+     Operand 2 : _____
+
+     Operator : Radio Buttons +, -, X, /, %
+
+        Submit
+     
+       Result
+----------------------------------------------------
+9. ImageDemo  Done
+
+   Monument :  Mysore Palace, Vidhana Soudha, Golgumbaz, Lalbagh
+    
+        Submit
+
+     Display the image
+------------------------------------------------------
+10. AudioDemo  Done
+
+   Song  :  My hu Don, Lila me laila, -----,  -----
+
+        Submit
+
+      Play that song, only audio
+-------------------------------------------------
+11. VideoDemo  Done
+
+   Song  :  My hu Don, Lila me laila, -----,  -----
+
+         Submit
+
+      Video play the song
+---------------------------------------------------
+
+12. StudentSearchController.php Done
+
+---------------------------------------------------
+
+13. StudentsByGender.php  Done
+
+---------------------------------------------------
+14. RoutingDemo
+
+   Demonstrate React routing principle
+--------------------------------------------------
+15. ReduxDemo
+
+    Without Redux   |    With Redux
+--------------------------------------------------
+Android lab
+Hooks, custom hooks
+myntra, airlines sites, 
+https://www.edchemy.com/our-story.html
+

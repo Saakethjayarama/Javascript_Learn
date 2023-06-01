@@ -1,0 +1,65 @@
+1.
+Object can be compared using
+
+a. hashCode
+b. equals
+c. hashEquals
+d. Both a and b
+
+Answer d
+
+2.
+What does hashCode method returns
+
+a. Integer
+b. Float
+c. String
+d. None
+
+Answer a
+
+3.
+What does equals method return
+
+a. Integer
+b. Boolean
+c. Float
+d. None
+
+Answer b
+
+4. 
+equals is 
+
+a. Instance method
+b. Class method
+c. Protected method
+d. None
+
+Answer a
+
+5. 
+hashCode is
+
+a. Instance method
+b. Class method
+c. Protected method
+d. None
+
+Answer a
+
+6.
+What does the following print
+
+x = 'ABC'
+y = 'ABC'
+
+if(x.equals(y)) System.out.println("Equal");
+
+a. Nothing
+b. NaN
+c. Equal
+d. All of the above
+
+Answer c
+

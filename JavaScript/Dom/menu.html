@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <style>
+        #container{
+            border: 1px solid black;
+            margin: 1px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            
+        </div>
+        <div id="buttons">
+            <input type="text" id="text" onchange="update()">
+            <button onclick="add()">Add</button>
+            <button onclick="up()">Up</button>
+            <button onclick="down()">Down</button>
+            <button onclick="remove()">Remove</button>
+        </div>
+    </div>
+
+    <script>
+        var text;
+        var current = null;
+        function update(){
+            text = document.getElementById("text").value;
+        }
+
+        function add(){
+            ele = document.createElement("div")
+            txtNode = document.createTextNode(text);
+            document.getElementById("text").value = null;
+            ele.appendChild(txtNode);
+
+            document.getElementById("content").appendChild(ele);
+        }
+
+        function down(){
+            if(current == null){
+                current = document.getElementById("content").childNodes[1]
+            }else{
+                if(current.nextSibling){
+                    current.style.background = "transparent";
+                    current = current.nextSibling;
+                }
+            }
+            current.style.background = "yellow"
+        }
+
+        function up(){
+            if(current == null){
+                current = document.getElementById("content").childNodes[1]
+            }else{
+                temp = current
+                if(current.previousSibling.previousSibling){
+                    temp.style.background = "transparent";
+                    current = current.previousSibling;
+                }else{
+                    current = temp;
+                }
+            }
+            current.style.background = "yellow"
+        }
+
+        function remove(){
+            if(current == null){
+                alert('Nothing to remove');
+            }else{
+                   temp = current;
+                   if(current.previousSibling){
+                       current = current.previousSibling
+                   }else if(current.nextSibling){
+                       current = current.nextSibling
+                   }else{
+                       current = null;
+                       remove();
+                   }
+                   temp.remove();
+                   current.style.background = "yellow"
+            }
+        }
+    </script>
+
+</body>
+</html>

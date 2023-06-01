@@ -1,0 +1,141 @@
+1. Which of these keywords are used to define an abstract class?
+a) abst
+b) abstract
+c) Abstract
+d) abstract class
+
+Answer b
+
+2. Which of these is not abstract?
+a) Thread
+b) AbstractList
+c) List
+d) None of the Mentioned
+
+Answer a
+
+3. If a class inheriting an abstract class does not define all of its function then it will be known as?
+a) Abstract
+b) A simple class
+c) Static class
+d) None of the mentioned
+
+Answer a
+
+4. Which of these is not a correct statement?
+a) Every class containing abstract method must be declared abstract
+b) Abstract class defines only the structure of the class not its implementation
+c) Abstract class can be initiated by new operator
+d) Abstract class can be inherited
+
+Answer c
+
+5. Which of these packages contains abstract keyword?
+a) java.lang
+b) java.util
+c) java.io
+d) java.system
+
+Answer a
+
+6. What will be the output of the following Java code?
+
+    class A 
+    {
+        public int i;
+        private int j;
+    }    
+    class B extends A 
+    {
+        void display() 
+        {
+            super.j = super.i + 1;
+            System.out.println(super.i + " " + super.j);
+        }
+    }    
+    class inheritance 
+   {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.i=1;
+            obj.j=2;   
+            obj.display();     
+        }
+   }
+a) 2 2
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+
+Answer d
+
+7. What will be the output of the following Java code?
+
+    class A 
+    {
+        public int i;
+        public int j;
+        A() 
+       {
+            i = 1;
+            j = 2;
+	}
+    }    
+    class B extends A 
+    {
+        int a;
+	B() 
+        {
+            super();
+        } 
+    }    
+    class super_use 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            System.out.println(obj.i + " " + obj.j)     
+        }
+   }
+a) 1 2
+b) 2 1
+c) Runtime Error
+d) Compilation Error
+
+Answer a
+
+8. What will be the output of the following Java code?
+
+    class A 
+    {
+        int i;
+        void display() 
+        {
+            System.out.println(i);
+        }
+    }    
+    class B extends A 
+    {
+        int j;
+        void display() 
+        {
+            System.out.println(j);
+        }
+    }    
+    class method_overriding 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.i=1;
+            obj.j=2;   
+            obj.display();     
+        }
+   }
+a) 0
+b) 1
+c) 2
+d) Compilation Error
+
+Answer c

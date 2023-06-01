@@ -1,0 +1,9 @@
+.Student {
+	padding: 15px;
+}
+
+table,
+tr,
+td {
+	border: 1px solid black;
+}

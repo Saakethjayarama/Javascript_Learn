@@ -1,0 +1,45 @@
+1.
+What are arrow functions
+a. compact alternative to traditional function
+b. Functions with arrows
+c. Functions which returns 'arrow'
+d. None
+Answer a
+
+2.
+Which of the following best describes an arrow function
+a. function () => {}
+b. function () {return =>}
+c. function() return =>
+d. () => {}
+Answer d
+
+3.
+Which of the following is not the limitation of arrow function
+a. Does not have this and super
+b. Not suitable for call, apply and bind methods
+c. Cannot be used as constructors
+d. Cannot return value
+Answer d
+
+4.
+Which of the following describes returning value from arrow function
+a. () => 4
+b. () => {return 4}
+c. function() {return => 4}
+d. Both a and b
+Answer d
+
+5.
+Which of the following describes returning an object from arrow function
+a. () => {x: 'abc'}
+b. () => {return {x: 'abc'}}
+c. () => ({x: 'abc'})
+d. Both b and c
+
+6.
+Which of the following is True for arrow functions
+a. Arrow functions are classes
+b. Constructors of classes can be arrow functions
+c. Arrow function always returns this object
+d. Arrow functions does not have this and super

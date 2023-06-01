@@ -1,0 +1,120 @@
+1. Which of these classes encapsulate runtime state of an object?
+a) Class
+b) System
+c) Runtime
+d) Cache
+
+Answer a
+
+2. Which of these methods returns the class of an object?
+a) getClass()
+b) Class()
+c) WhoseClass()
+d) WhoseObject()
+
+Answer a
+
+3. Which of these methods return a class object given its name?
+a) getClass()
+b) findClass()
+c) getSystemClass()
+d) findSystemClass()
+
+Answer d
+
+4. Which of these class defines how the classes are loaded?
+a) Class
+b) System
+c) Runtime
+d) ClassLoader
+
+Answer d
+
+5. What will be the output of the following Java program?
+
+
+    class X 
+    {
+        int a;
+        double b;
+    }
+    class Y extends X 
+    {
+	int c;
+    }
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            X a = new X();
+            Y b = new Y();
+            Class obj;
+            obj = a.getClass();
+            System.out.print(obj.getName());
+        }
+    }
+a) X
+b) Y
+c) a
+d) b
+
+Answer a
+
+6. What will be the output of the following Java program?
+
+    class X
+    {
+        int a;
+        double b;
+    }
+    class Y extends X 
+    {
+	int c;
+    }
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            X a = new X();
+            Y b = new Y();
+            Class obj;
+            obj = b.getClass();
+            System.out.print(obj.getSuperclass());
+        }
+    }
+a) X
+b) Y
+c) class X
+d) class Y
+
+Answer c
+
+7. What will be the output of the following Java program?
+
+    class X 
+    {
+        int a;
+        double b;
+    }
+    class Y extends X 
+    {
+	int c;
+    }
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            X a = new X();
+            Y b = new Y();
+            Class obj;
+            obj = b.getClass();
+            System.out.print(obj.isLocalClass());
+        }
+    }
+a) 0
+b) 1
+c) true
+d) false
+
+Answer d
+

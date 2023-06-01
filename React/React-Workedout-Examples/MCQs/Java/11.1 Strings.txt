@@ -1,0 +1,56 @@
+1. String in Java is a?
+a) class
+b) object
+c) variable
+d) character array
+
+Answer a
+
+2. Which of these method of String class is used to obtain character at specified index?
+a) char()
+b) Charat()
+c) charat()
+d) charAt()
+
+Answer d
+
+3. Which of these keywords is used to refer to member of base class from a subclass?
+a) upper
+b) super
+c) this
+d) none of the mentioned
+
+Answer b
+
+4. Which of these method of String class can be used to test to strings for equality?
+a) isequal()
+b) isequals()
+c) equal()
+d) equals()
+
+Answer d
+
+5. Which of the following statements are incorrect?
+a) String is a class
+b) Strings in java are mutable
+c) Every string is an object of class String
+d) Java defines a peer class of String, called StringBuffer, which allows string to be altered
+
+Answer b
+
+6. What will be the output of the following Java program?
+
+    class string_demo 
+    {
+        public static void main(String args[])
+        {
+            String obj = "I" + "like" + "Java";   
+            System.out.println(obj);     
+        }
+   }
+a) I
+b) like
+c) Java
+d) IlikeJava
+
+Answer d

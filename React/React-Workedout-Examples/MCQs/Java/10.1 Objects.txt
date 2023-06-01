@@ -1,0 +1,118 @@
+1. Which of these class is superclass of every class in Java?
+a) String class
+b) Object class
+c) Abstract class
+d) ArrayList class
+
+Answer b
+
+2. Which of these method of Object class is used to obtain class of an object at run time?
+a) get()
+b) void getclass()
+c) Class getclass()
+d) None of the mentioned
+
+Answer c
+
+3. Which of these keywords can be used to prevent inheritance of a class?
+a) super
+b) constant
+c) class
+d) final
+
+Answer d
+
+
+4. Which of these keywords cannot be used for a class which has been declared final?
+a) abstract
+b) extends
+c) abstract and extends
+d) none of the mentioned
+
+Answer a
+
+5. Which of these class relies upon its subclasses for complete implementation of its methods?
+a) Object class
+b) abstract class
+c) ArrayList class
+d) None of the mentioned
+
+Answer b
+
+6. What will be the output of the following Java program?
+
+    abstract class A 
+    {
+        int i;
+        abstract void display();
+    }    
+    class B extends A 
+    {
+        int j;
+        void display() 
+        {
+            System.out.println(j);
+        }
+    }    
+    class Abstract_demo 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.j=2;
+            obj.display();    
+        }
+    }
+
+a) 0
+b) 2
+c) Runtime Error
+d) Compilation Error
+
+Answer b
+
+7. What will be the output of the following Java program?
+
+   class A 
+   {
+	int i;
+	int j;
+        A() 
+        {
+            i = 1;
+            j = 2;
+        }
+   }
+   class Output 
+   {
+        public static void main(String args[])
+        {
+             A obj1 = new A();
+             A obj2 = new A();
+	     System.out.print(obj1.equals(obj2));
+        }
+   }
+  
+a) false
+b) true
+c) 1
+d) Compilation Error
+
+Answer a
+
+8. What will be the output of the following Java code?
+
+    class Output 
+    {
+        public static void main(String args[])
+        {
+             Object obj = new Object();
+	     System.out.print(obj.getclass());
+        }
+    }
+a) Object
+b) class Object
+c) class java.lang.Object
+d) Compilation Error
+
+Answer c

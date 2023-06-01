@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic data</title>
+    <script>
+      const response = {
+        status_code: 200,
+        get: function () {
+          return new Promise((resolve, reject) => {
+            setTimeout(() => {
+              resolve([
+                {
+                  name: "Rachele Green",
+                  usn: "002",
+                  phone: 8459865475,
+                },
+                {
+                  name: "Ross Geller",
+                  usn: "003",
+                  phone: 8456241563,
+                },
+                {
+                  name: "Chandler Bing",
+                  usn: "004",
+                  phone: 8459687548,
+                },
+                {
+                  name: "Monica Geller",
+                  usn: "005",
+                  phone: 6325418595,
+                },
+                {
+                  name: "Joe Tribiani",
+                  usn: "006",
+                  phone: 8459854715,
+                },
+                {
+                  name: "Phoebe Buffay",
+                  usn: "007",
+                  phone: 9654153254,
+                },
+                {
+                  name: "Mike Hannigan",
+                  usn: "008",
+                  phone: 9587486215,
+                },
+              ]);
+            }, 5000);
+          });
+        },
+      };
+
+      // Using Promises
+      response.get().then((data) => {
+        let content = "";
+
+        data.forEach((document) => {
+          content += `
+            <tr>
+              <td>${document.name}</td>
+              <td>${document.usn}</td>
+              <td>${document.phone}</td>
+            </tr>
+          `;
+        });
+
+        document.querySelector("tbody").innerHTML = content;
+      });
+
+      // Using asynch await
+      (async function load() {
+        const data = await response.get();
+        let content = "";
+        data.forEach((document) => {
+          content += `
+            <tr>
+              <td>${document.name}</td>
+              <td>${document.usn}</td>
+              <td>${document.phone}</td>  
+            </tr>
+          `;
+        });
+
+        document.querySelector("tbody").innerHTML = content;
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Students</h1>
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>USN</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

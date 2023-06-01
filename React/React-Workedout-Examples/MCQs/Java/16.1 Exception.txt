@@ -1,0 +1,47 @@
+1. When does Exceptions in Java arises in code sequence?
+a) Run Time
+b) Compilation Time
+c) Can Occur Any Time
+d) None of the mentioned
+
+Answer a
+
+2. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+
+Answer c
+
+3. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer a
+
+4. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer d
+
+5. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer c
+
+6. User defined exceptions are extended from
+a) Exception Class
+b) Error Class
+c) Try Class
+d) Catch Class
+
+Answer a

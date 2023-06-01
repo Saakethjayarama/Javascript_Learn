@@ -1,0 +1,92 @@
+1.
+Which of the following is not type of statement in Java
+a. Expression statement
+b. Declaration statement
+c. Control flow statement
+d. None
+
+Answer d
+
+2.
+An Arithmetic expression in Java involves which Operators or Operations?
+a. Addition (+), Subtraction (-)
+b. Multiplication (*), Division (/)
+c. Modulo Division (%), Increment/Decrement (++/--), Unary Minus (-), Unary Plus (+)
+d. All the above
+
+Answer d
+
+3.
+Choose the Compound Assignment Arithmetic Operators in Java below.
+a. +=, -=
+b. *=, /=
+c. %=
+d. All the above
+
+Answer d
+
+4.
+What is the output of the below Java code snippet?
+int a = 2 - - 7;
+System.out.println(a);
+
+a. -5
+b. 10
+c. 9
+d. Compiler Error
+
+Answer c
+
+5.
+What is the output of Java code snippet below?
+
+short p = 1;
+short k = p + 2;
+System.out.println(k);
+
+a. 1
+b. 2
+c. 3
+d. Compiler error
+
+Answer d
+
+6.
+What is the output of Java code snippet?
+
+short k=1;
+k += 2;
+System.out.println(k);
+
+a. 1
+b. 2
+c. 3
+d. Compiler error about Type Casting
+
+Answer c
+
+7.
+What is the output of the Java code snippet?
+
+int a=5, b=10, c=15;
+a -= 3;
+b *= 2;
+c /= 5;
+System.out.println(a +" " + b + " " + c);
+
+a. 2 20 3
+b. 2 20 5
+c. 2 10 5
+d. -2 20 3
+
+Answer a
+
+8.
+Which is the arithmetic operator in Java that gives the Remainder of Division?
+
+A) /
+B) @
+C) %
+D) &
+
+Answer c

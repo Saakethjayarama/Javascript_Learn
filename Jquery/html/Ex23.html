@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+
+</head>
+
+<body>
+    <div id="one">
+        <h1>Saaketh</h1>
+    </div>
+    <div id="two">
+        Vijay
+    </div>
+    <button>click</button>
+</body>
+
+<script>
+    $(() => {
+        $('#one').css('background-color', 'black')
+        $('#one').css('background-color')
+        $('button').click(() => {
+            $('#two').css({
+                'background-color': 'black',
+                'color': 'white'
+            })
+        })
+    })
+
+
+</script>
+
+</html>

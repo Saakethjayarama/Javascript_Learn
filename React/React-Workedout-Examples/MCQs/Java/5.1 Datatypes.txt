@@ -1,0 +1,71 @@
+1.
+Which of the following is smallest integer data type ?
+A. int
+B. byte
+C. short
+D. long
+
+Answer b
+
+
+2. 
+Which of the following is not a primitive data type ?
+A. byte
+B. enum
+C. short
+D. int
+
+Answer b
+
+3.
+Integer Data type does not include following primitive data type ____________.
+A. long
+B. byte
+C. short
+D. double
+
+Answer d
+
+4.
+Which of the following data types comes under floating data types ?
+A. int
+B. double
+C. long
+D. byte
+
+Answer b
+
+5.
+Character data type cannot store following value.
+A. Digit
+B. Letter
+C. Special Character
+D. String
+
+Answer d
+
+6.
+Range of Byte Data Type is ____________
+A. -128 to 128
+B. -127 to 127
+C. -127 to 128
+D. -128 to 127
+
+Answer d
+
+7.
+What is size of integer in Java Programming
+A. 1 Bytes
+B. 2 Bytes
+C. 4 Bytes
+D. 8 Bytes
+
+Answer c
+
+8. Which of the following data type(s) can store 64 bit Value.
+A. boolean
+B. int
+C. float
+D. long
+
+Answer d

@@ -1,0 +1,5 @@
+- Example1 = Serving html files
+- Example2 = Appending files
+- Example3 = Opening file
+- Example4 = writeFile
+- Example5 = deletingFiles

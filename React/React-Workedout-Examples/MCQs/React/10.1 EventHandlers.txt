@@ -1,0 +1,63 @@
+1.
+Events are
+a. Events that happens in the browser
+b. Events are functions
+c. Events are classes
+d. None
+Answer a
+
+2.
+The type that specifies what kind of event occurred is ____________
+a) event type
+b) even target
+c) both event type and even target
+d) interface
+Answer a
+
+3.
+Which is the object on which the event occurred or with which the event is associated?
+a) event type
+b) event target
+c) both event type and even target
+d) interface
+Answer b
+
+4.
+In general, event handler is nothing but ____________
+a) function
+b) interface
+c) event
+d) handler
+Answer a
+
+5.
+When will the browser invoke the handler?
+a) Program begins
+b) Any event occurs
+c) Specified event occurs
+d) Webpage loads
+Answer c
+
+6.
+Which property specifies the property of the event?
+a) Type
+b) Target
+c) Manner
+d) Program
+Answer a
+
+7.
+The process by which the browser decides which objects to trigger event handlers on is ____________
+a) Event Triggering
+b) Event Listening
+c) Event Handling
+d) Event propagation
+Answer d
+
+8.
+Which form of event propagation handles the registered container elements?
+a) Event Propagation
+b) Event Registration
+c) Event Capturing
+d) Default Actions
+Answer c

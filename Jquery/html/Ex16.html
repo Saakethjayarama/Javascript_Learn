@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="container">
+        <a href="https://www.google.com" target="_blank">Visit Google</a><br><br>
+        <button>change</button>
+    </div>
+</body>
+
+<script>
+    //without call back
+    // $(() => {
+    //     $('button').click(() => {
+    //         $('a').text('Visit Portfolio')
+    //         $('a').attr({
+    //             'href': 'https://Saakethjayarama.github.io',
+    //             'target': ''
+    //         })
+    //     })
+    // })
+    //with call back
+    $(() => {
+        $('button').click(() => {
+            $('a').text((index, currentValue) => {
+                console.log('currentValue: ', currentValue)
+                return 'Visit portfolio'
+            })
+            $('a').attr('href', (index, currentValue) => {
+                console.log(currentValue)
+                return 'https://Saakethjayarama.github.io'
+            })
+        })
+    })
+</script>
+
+</html>

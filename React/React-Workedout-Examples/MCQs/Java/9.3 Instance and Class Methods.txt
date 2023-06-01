@@ -1,0 +1,72 @@
+1. What is the return type of a method that does not return any value?
+a) int
+b) float
+c) void
+d) double
+
+Answer c
+
+2. What is the process of defining more than one method in a class differentiated by method signature?
+a) Function overriding
+b) Function overloading
+c) Function doubling
+d) None of the mentioned
+
+Answer b
+
+3. Which of the following is a method having same name as that of it’s class?
+a) finalize
+b) delete
+c) class
+d) constructor
+
+Answer d
+
+4. Which method can be defined only once in a program?
+a) main method
+b) finalize method
+c) static method
+d) private method
+
+Answer a
+
+5. Which of this statement is incorrect?
+a) All object of a class are allotted memory for the all the variables defined in the class
+b) If a function is defined public it can be accessed by object of other class by inheritation
+c) main() method must be made public
+d) All object of a class are allotted memory for the methods defined in the class
+
+Answer d
+
+6. What will be the output of the following Java program?
+
+    class box 
+    {
+        int width;
+        int height;
+        int length;
+        int volume;
+        void volume(int height, int length, int width) 
+        {
+             volume = width*height*length;
+        } 
+    }    
+    class Prameterized_method
+    {
+        public static void main(String args[])
+        {
+            box obj = new box();
+            obj.height = 1;
+            obj.length = 5;
+            obj.width = 5;
+            obj.volume(3,2,1);
+            System.out.println(obj.volume);        
+        } 
+     }
+a) 0
+b) 1
+c) 6
+d) 25
+
+Answer c
+

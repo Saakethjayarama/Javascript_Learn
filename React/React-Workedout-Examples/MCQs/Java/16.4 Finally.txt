@@ -1,0 +1,81 @@
+1. Which of these clause will be executed even if no exceptions are found?
+a) throws
+b) finally
+c) throw
+d) catch
+
+Answer b
+
+2. A single try block must be followed by which of these?
+a) finally
+b) catch
+c) finally & catch
+d) none of the mentioned
+
+Answer c
+
+3. Which of these exceptions handles the divide by zero error?
+a) ArithmeticException
+b) MathException
+c) IllegalAccessException
+d) IllegarException
+
+Answer a
+
+4. Which of these exceptions will occur if we try to access the index of an array beyond its length?
+a) ArithmeticException
+b) ArrayException
+c) ArrayIndexException
+d) ArrayIndexOutOfBoundsException
+
+Answer d
+
+5. What will be the output of the following Java code?
+
+    class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                int a = args.length;
+                int b = 10 / a;
+                System.out.print(a);
+            }
+            catch (ArithmeticException e) 
+            {
+                    System.out.println("1");
+            }
+        }
+    }
+Note : Execution command line : $ java exception_handling
+
+a) 0
+b) 1
+c) Compilation Error
+d) Runtime Error
+
+Answer b
+
+6. What will be the output of the following Java code?
+
+    class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                throw new NullPointerException ("Hello");
+            }
+            catch(ArithmeticException e)
+            {
+        	System.out.print("B");        	
+            }
+        }
+    }
+a) A
+b) B
+c) Compilation Error
+d) Runtime Error
+
+Answer d

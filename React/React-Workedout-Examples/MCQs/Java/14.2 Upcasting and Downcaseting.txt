@@ -1,0 +1,63 @@
+1. If the child object is type casted to parent object it is called
+a. Upcasting
+b. Downcasting
+c. Downloading
+d. Uploading
+
+Answer a
+
+2. If the parent object is type casted to child object it is called
+a. Upcasting
+b. Downcasting
+c. Downloading
+d. Uploading
+
+Answer b
+
+3. What is upcasting?
+a) Casting subtype to supertype
+b) Casting super type to subtype
+c) Casting subtype to super type and vice versa
+d) Casting anytype to any other type
+
+Answer a
+
+4. Which among the following is true for upcasting in inheritance?
+a) Downward to the inheritance tree
+b) Upward to the inheritance tree
+c) Either upward or downward
+d) Doesn’t apply on inheritance
+
+Answer b
+
+5. Which among the following is safe?
+a) Upcasting
+b) Downcasting
+c) Both upcasting and downcasting
+d) If upcasting is safe then downcasting is not, and vice versa
+
+Answer a
+
+6. Which among the following is the best situation to use upcasting?
+a) For general code dealing with only subtype
+b) For general code dealing with only supertype
+c) For general code dealing with both the supertype and subtype
+d) For writing a rigid code with respect to subtype
+
+Answer b
+
+7. Which property is shown most when upcasting is used?
+a) Code reusability
+b) Code efficiency
+c) Complex code simple syntax
+d) Encapsulation
+
+Answer c
+
+8.  If multiple inheritance is implemented, which upcasting will be correct?
+a) Upcast to first base class listed in inheritance
+b) Upcast to send base class listed in inheritance
+c) Upcast to any base class
+d) Upcast is not possible
+
+Answer c

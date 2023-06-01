@@ -1,0 +1,63 @@
+1. Where to declare local variables ?
+A. It declares inside the class and outside of method.
+B. It declares inside the class with static prefix and outside of method.
+C. It declares inside the method.
+D. None
+
+Answer c
+
+2. Where to declare instance variables ?
+A. It declares inside the class and outside of method.
+B. It declares inside the class with static prefix and outside of method.
+C. It declares inside the method.
+D. All of the above
+
+Answer a
+
+3. Where to declare class variables ?
+A. It declares inside the class and outside of method.
+B. It declares inside the class with static prefix and outside of method.
+C. It declares inside the method.
+D. All of the above
+
+Answer b
+
+4. Which of following can not be used as variable name in Java programming language ?
+A. literal
+B. Keywords
+C. Identifier
+D. Identifier and Keywords
+
+Answer b
+
+5. A name of variable is known as
+A. Data Type
+B. Constant
+C. Identifier
+D. None
+
+Answer c
+
+6. Which is the invalid variable name ?
+A. tenthTeam
+B. TenthTeam
+C. 10thTeam
+D. None of Above
+
+Answer c
+
+7. A variable name should not begin with
+A. A number
+B. Special characters but underscore and dollar sign
+C. All of above
+D. None
+
+Answer c
+
+8. Which is the valid variable name ?
+A. 5thTeam
+B. &5thteam
+C. _5thTeam
+D. None of Above
+
+Answer c

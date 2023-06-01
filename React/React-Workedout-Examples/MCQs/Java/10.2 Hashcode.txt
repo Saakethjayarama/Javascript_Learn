@@ -1,0 +1,61 @@
+1. What will be the output of the following Java code?
+
+    class Output 
+    {
+        public static void main(String args[])
+        {
+             Object obj = new Object();
+	     System.out.print(obj.getclass());
+        }
+    }
+a) Object
+b) class Object
+c) class java.lang.Object
+d) Compilation Error
+
+Answer c
+
+2. hashCode method is implemented in which class ?
+
+a) HashCode class
+b) HashMap class
+c) Object class
+d) All of the above
+
+Answer c
+
+3. What does hashCode method retrun ?
+
+a) String
+b) Integer
+c) Float
+d) Double
+
+Answer b
+
+4. What does hashCode return when called on same object ?
+
+a) Same String
+b) Same Integer
+c) Same Float
+d) Same Double
+
+Answer b
+
+5. HashCode of same valued variable is same
+
+a) True
+b) False
+c) May be equal may not be equal
+d) All of the above
+
+Answer a
+
+6. User defined function also inherits hashCode.
+
+a) True
+b) False
+c) Both a and b
+d) None
+
+Answer a

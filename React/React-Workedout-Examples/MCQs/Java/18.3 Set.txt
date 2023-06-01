@@ -1,0 +1,59 @@
+1. What is the default clone of HashSet?
+a) Deep clone
+b) Shallow clone
+c) Plain clone
+d) Hollow clone
+
+Answer b
+
+2. Do we have get(Object o) method in HashSet.
+a) True
+b) False
+
+Answer b
+
+3. What does Collections.emptySet() return?
+a) Immutable Set
+b) Mutable Set
+c) The type of Set depends on the parameter passed to the emptySet() method
+d) Null object
+
+Answer a
+
+4. What are the initial capacity and load factor of HashSet?
+a) 10, 1.0
+b) 32, 0.75
+c) 16, 0.75
+d) 32, 1.0
+
+Answer c
+
+5. What is the relation between hashset and hashmap?
+a) HashSet internally implements HashMap
+b) HashMap internally implements HashSet
+c) HashMap is the interface; HashSet is the concrete class
+d) HashSet is the interface; HashMap is the concrete class
+
+Answer a
+
+6. Set has contains(Object o) method.
+a) True
+b) False
+
+Answer a
+
+7. What is the difference between TreeSet and SortedSet?
+a) TreeSet is more efficient than SortedSet
+b) SortedSet is more efficient than TreeSet
+c) TreeSet is an interface; SortedSet is a concrete class
+d) SortedSet is an interface; TreeSet is a concrete class
+
+Answer d
+
+8. What happens if two threads simultaneously modify TreeSet?
+a) ConcurrentModificationException is thrown
+b) Both threads can perform action successfully
+c) FailFastException is thrown
+d) IteratorModificationException is thrown
+
+Answer a

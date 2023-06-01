@@ -1,0 +1,59 @@
+1. Map implements collection interface?
+a) True
+b) False
+
+Answer b
+
+2. Which of the below does not implement Map interface?
+a) HashMap
+b) Hashtable
+c) EnumMap
+d) Vector
+
+Answer d
+
+3. What is the premise of equality for IdentityHashMap?
+a) Reference equality
+b) Name equality
+c) Hashcode equality
+d) Length equality
+
+Answer a
+
+4. What happens if we put a key object in a HashMap which exists?
+a) The new object replaces the older object
+b) The new object is discarded
+c) The old object is removed from the map
+d) It throws an exception as the key already exists in the map
+
+Answer a
+
+5. While finding the correct location for saving key value pair, how many times the key is hashed?
+a) 1
+b) 2
+c) 3
+d) unlimited till bucket is found
+
+Answer b
+
+6. Is hashmap an ordered collection.
+a) True
+b) False
+
+Answer b
+
+7. If two threads access the same hashmap at the same time, what would happen?
+a) ConcurrentModificationException
+b) NullPointerException
+c) ClassNotFoundException
+d) RuntimeException
+
+Answer a
+
+8. If large number of items are stored in hash bucket, what happens to the internal structure?
+a) The bucket will switch from LinkedList to BalancedTree
+b) The bucket will increase its size by a factor of load size defined
+c) The LinkedList will be replaced by another hashmap
+d) Any further addition throws Overflow exception
+
+Answer a

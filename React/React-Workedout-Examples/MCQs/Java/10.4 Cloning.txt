@@ -1,0 +1,52 @@
+1. Which of these method of Object class can clone an object?
+a) Objectcopy()
+b) copy()
+c) Object clone()
+d) clone()
+
+Answer c
+
+2. Clone method is inherited from
+
+a) Custom class
+b) Object class
+c) String class
+d) Integer class
+
+Answer b
+
+3. Does User defined classes inherit clone method
+
+a) True
+b) False
+c) ---
+d) ---
+
+Answer a
+
+4. what does clone method return
+
+a) Instance of Object class
+b) Instance of Integer class
+c) Instance of String class
+d) None
+
+Answer a
+
+5. which exception does clone method throw
+
+a) CloneErrorException
+b) CloneNotFoundException
+c) CloneNotSupportedException
+d) All of the above
+
+Answer c
+
+6. Object.clone() supports
+
+a) Shallow copying
+b) Deep copying
+c) Both a and b
+d) None
+
+Answer a

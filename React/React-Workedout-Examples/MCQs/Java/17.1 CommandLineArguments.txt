@@ -1,0 +1,89 @@
+1. Which of this method is given parameter via command line arguments?
+a) main()
+b) recursive() method
+c) Any method
+d) System defined methods
+
+Answer a
+
+2. Which of these data types is used to store command line arguments?
+a) Array
+b) Stack
+c) String
+d) Integer
+
+Answer c
+
+3. How many arguments can be passed to main()?
+a) Infinite
+b) Only 1
+c) System Dependent
+d) None of the mentioned
+
+Answer a
+
+4. Which of these is a correct statement about args in the following line of code?
+
+public static void main(String args[])
+a) args is a String
+b) args is a Character
+c) args is an array of String
+d) args in an array of Character
+
+Answer c
+
+5. Can command line arguments be converted into int automatically if required?
+a) Yes
+b) No
+c) Compiler Dependent
+d) Only ASCII characters can be converted
+
+Answer b
+
+6. What will be the output of the following Java program, Command line execution is done as – “java Output This is a command Line”?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            System.out.print("args[0]");
+        }
+    }
+a) java
+b) Output
+c) This
+d) is
+
+Answer c
+
+7. What will be the output of the following Java program, Command line exceution is done as – “java Output This is a command Line”?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            System.out.print("args[3]");
+        }
+    }
+a) java
+b) is
+c) This
+d) command
+
+Answer d
+
+8. What will be the output of the following Java program, Command line execution is done as – “java Output This is a command Line”?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            System.out.print("args");
+        }
+    }
+a) This
+b) java Output This is a command Line
+c) This is a command Line
+d) Compilation Error
+
+Answer c

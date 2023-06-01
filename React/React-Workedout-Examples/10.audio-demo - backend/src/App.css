@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+body {
+  padding: 30px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin: 15px;
+  font-size: large;
+}

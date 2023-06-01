@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div style="background-color: yellow; padding: 15px;">
+        <div id="slide-container-slide-up" style="background-color: chocolate;">
+            Subject
+            <div id="slide-content-slide-up">
+                Saaketh
+            </div>
+        </div> <br><br>
+        <div id="slide-container-slide-down" style="background-color: coral;">
+            Subject
+            <div id="slide-content-slide-down">
+                Saaketh
+            </div>
+        </div><br><br>
+        <div id="slide-container-slide-toggle" style="background-color: coral;">
+            Subject
+            <div id="slide-content-slide-toggle">
+                Saaketh
+            </div>
+        </div><br><br>
+    </div>
+</body>
+
+<script>
+    $(() => {
+        $('#slide-container-slide-up').click(() => {
+            $('#slide-content-slide-up').slideUp('slow', () => {
+                console.log('slid up')
+            })
+        })
+
+        $('#slide-content-slide-down').slideUp('fast')
+
+        $('#slide-container-slide-down').click(() => {
+            $('#slide-content-slide-down').slideDown('slow', () => {
+                console.log('slid down')
+            })
+        })
+        $('#slide-container-slide-toggle').click(() => {
+            $('#slide-content-slide-toggle').slideToggle('slow', () => {
+                console.log('slid toggled')
+            })
+        })
+    })
+</script>
+
+</html>

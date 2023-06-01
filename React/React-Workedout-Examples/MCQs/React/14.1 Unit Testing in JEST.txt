@@ -1,0 +1,38 @@
+1.
+Which is the recommended tool for Unit Testing in react?
+a. JEST
+b. Axios
+c. Fetch
+d. All of the above
+Answer a
+
+2.
+In react Unit tests are done on
+a. On App
+b. On Functional compoents
+c. On Class components
+d. All of the above
+Answer d
+
+3.
+Which is/are the features of JEST
+a. Component Testing
+b. Snapshot Testing
+c. Assertion Testing
+d. All of the above
+Answer d
+
+4.
+Enzymes are used to
+a. Mount React component
+b. UnMount React component
+c. Traverse through React DOM tree
+d. All of the above
+Answer c
+
+5.
+Which of the following is not true about unit testing
+a. Unit tests are conducted on the entire application itself.
+b. Unit tests are conducted on smallest unit of application.
+c. Unit tests are made to check whether the application is functional in unit level
+d. None

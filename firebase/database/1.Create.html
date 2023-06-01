@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+<body>
+    <div id="form">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="USN">
+        <input type="button" onclick="insert()" value="Insert">
+        <input type="button" onclick="start()" value="Start Listening">
+        <input type="button" onclick="stop()" value="Stop Listening">
+    </div><br/>
+    <div id="results">
+    </div>
+    <script>
+        function insert() {
+            const name = document.querySelector('input[placeholder=Name]').value;
+            const usn = document.querySelector('input[placeholder=USN]').value;
+            console.log('😇 Values:- ', {name, usn});
+    
+            const key = database.ref(`friends`).push({
+                name, usn
+            }).getKey();
+            console.log('🔑 :', key);
+        }
+        let listener = null;
+        function start() {
+                listener = database.ref('friends/')
+
+                // executes call back whenever the value gets changed
+                listener.on('value', (snapshot)=>{
+                values = snapshot.val();
+                console.log('🤯 values', values);
+
+
+                docs = [];
+                for([key, value] of Object.entries(values)){
+                    docs.push(value)
+                }
+
+                let content = ``;
+                docs.forEach(frnd => {
+                    const {name, usn} = frnd;
+                    content += `
+                        <div>
+                            <span>Name: ${name}</span>&nbsp;&nbsp;
+                            <span>USN: ${usn}</span>
+                        </div>
+                    `
+                });
+                
+                document.getElementById("results").innerHTML = content;
+            })
+        }
+
+        function stop() {
+            if(listener){
+                listener.off();
+            }
+        }
+    </script>
+</body>
+</html>

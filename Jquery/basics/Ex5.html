@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="fam">
+        Saaketh<br />
+        Vijay<br />
+        Ma <br />
+        Pa<br />
+    </div>
+    <script>
+        $(() => {
+            $("#fam").hover(() => {
+                console.log('Mouse entered')
+                $("#fam").css('background-color', 'yellow')
+            }, () => {
+                console.log('Mouse Left')
+                $("#fam").css('background-color', 'white')
+            })
+        })
+    </script>
+</body>
+
+</html>

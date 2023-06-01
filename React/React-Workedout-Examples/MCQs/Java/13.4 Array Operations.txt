@@ -1,0 +1,55 @@
+1. What will be the output of the following Java code snippet?
+
+Object[] names = new String[3];
+names[0] = new Integer(0);
+a) ArrayIndexOutOfBoundsException
+b) ArrayStoreException
+c) Compilation Error
+d) Code runs successfully
+
+Answer b
+
+2. How to sort an array?
+a) Array.sort()
+b) Arrays.sort()
+c) Collection.sort()
+d) System.sort()
+
+Answer b
+
+
+3. How to copy contents of array?
+a) System.arrayCopy()
+b) Array.copy()
+c) Arrays.copyOf()
+d) Collection.copy()
+
+Answer c
+
+4. What does filter method of array return ?
+
+a) Array of element of same data type on which the method is called on
+b) Array of Object data type
+c) Array of Integers
+d) Array of String value of Object.
+
+Answer a
+
+5. What does sort method return ?
+
+a) Array of sorted objects.
+b) Array of string of sorted objects
+c) Array of sorted objects of Integer
+d) All of the above
+
+Answer a
+
+6. array.length gives
+
+a) length of array
+b) dimensions of array
+c) copy of array
+d) All of the above
+
+Answer a
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div>
+        <span id="one">
+            one
+        </span>
+        <span id="two">
+            two
+        </span>
+        <span id="three">
+            three
+        </span>
+        <span id="four">
+            four
+        </span>
+    </div>
+    <script>
+        $(() => {
+            console.log('next');
+            let x = $('#one').next();
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('prev')
+            let y = $('#two').prev();
+            y.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('next all');
+            x = $('#one').nextAll();
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('prev all');
+            y = $('#four').prevAll();
+            y.each((index, element) => {
+                console.log(element);
+            })
+
+
+            console.log('next until');
+            x = $('#one').nextUntil('#three');
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('prev until');
+            y = $('#four').prevUntil('#two');
+            y.each((index, element) => {
+                console.log(element);
+            })
+        })
+    </script>
+</body>
+
+</html>

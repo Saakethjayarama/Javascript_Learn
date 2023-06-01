@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: black;
+        }
+
+        .dark-theme {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='container' class="container dark-theme">
+        <h1>Saaketh</h1>
+    </div>
+    <button>Theme</button>
+</body>
+
+<script>
+    $(() => {
+        $('button').click(() => {
+            $('#container').toggleClass('dark-theme')
+        })
+    })
+
+    function changeTheme() {
+        $('#container').toggleClass('dark-theme')
+    }
+
+    // setInterval(changeTheme, 2000);
+
+</script>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="container">
+        <span id="one">
+            s
+        </span>
+        <span id="two">
+            a
+        </span>
+        <span id="three">
+            k
+        </span>
+        <span id="four">
+            i
+        </span>
+        <button>
+
+        </button>
+    </div>
+    <script>
+        $(() => {
+            $('button').click(() => {
+                ($('button').siblings().each((index, element) => {
+                    console.log($(element).text().trim());
+                }));
+            })
+        })
+    </script>
+</body>
+
+</html>

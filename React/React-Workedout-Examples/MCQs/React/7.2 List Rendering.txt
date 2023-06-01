@@ -1,0 +1,64 @@
+1.
+What is list rendering
+a. Rendering of jsx using the elements from list
+b. Rendering elements of list
+c. Both a & b
+d. None
+Answer c
+
+2.
+Which javascript method is used to render list
+a. indexOf
+b. map
+c. Object.of()
+d. None
+Answer b
+
+3.
+How many parameters does map method have
+a. 2
+b. 3
+c. 4
+d. 5
+Answer a
+
+4.
+Which of the following is not the parameter of map method
+a. Element
+b. Index
+c. React Version
+d. None
+Answer c
+
+5.
+Which is the first parameter of map method
+a. Element
+b. Index
+c. Index from last
+d. Index from first
+Answer a
+
+6.
+Which is the second parameter of map method
+a. Element
+b. Index
+c. Index from last
+d. Index from first
+Answer b
+
+7.
+Which of the following describes the usage of map method
+a. list.map((element) => <Component child={element}/> )
+b. list.map((element, index) => <Component child={element}  index={index}/>)
+c. Both a and b
+d. None
+Answer c
+
+8.
+map method can be called on
+a. Objects
+b. array
+c. number
+d. none
+Answer b
+

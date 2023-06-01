@@ -1,0 +1,74 @@
+1. Which of the following can be operands of arithmetic operators?
+
+A. Characters
+B. Boolean
+C. Numeric
+D. Both Numeric & Characters
+
+Answer d
+
+2. Modulus operator, %, can be applied to which of these?
+
+A. Both Integers and floating - point numbers
+B. Integers
+C. Floating - point numbers
+D. None of the mentioned
+
+Answer a
+
+3. Decrement operator, âˆ’âˆ’, decreases the value of variable by what number?
+
+A. 1
+B. 2
+C. 3
+D. 4
+
+Answer a
+
+4. Which of these statements are incorrect?
+
+A. Assignment operators can be used only with numeric and character data type
+B. Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms
+C. Assignment operators run faster than their equivalent long forms
+D. None of the mentioned
+
+Answer d
+
+5. Can 8 byte long data type be automatically type cast to 4 byte float data type?
+
+A. TRUE
+B. FALSE
+C. Can be true or false
+D. can not say
+
+Answer a
+
+6. Evaluate the value of the expression?
+
+  
+		   6 - 2 + 10 % 4 + 7
+		   
+A. 14
+B. 12
+C. 13
+D. 10
+
+Answer c
+
+7. What is/are highest order precedence operator(s) in Java?
+
+A. ( )
+B. { }
+C. Both A & B
+D. None of these
+
+Answer c
+
+8. The && and || operators
+
+A. Compare two boolean values
+B. Compare two numeric values
+C. Combine two boolean values
+D. Combine two numeric values
+
+Answer c

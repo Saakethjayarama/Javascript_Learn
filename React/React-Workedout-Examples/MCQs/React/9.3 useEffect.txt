@@ -1,0 +1,63 @@
+1.
+Hook Effect is
+a. Way of setting state in functional component
+b. Way of defining functional component
+c.  to perform side effects (an action) in the function components
+d. Way of defining module in React
+Answer c
+
+2.
+useEFfect hook is equivalent for for
+a. componentDidMount
+b. componentDidUpdate
+c. componentWillUnmount
+d. All of the above
+Answer d
+
+3.
+what does useState return
+a. State's value
+b. Setter
+c. An array consisting of value and setter
+d. Nothing
+Answer d
+
+4.
+How many parameters does useState take
+a. 1
+b. 2
+c. 3
+d. 4
+Answer b
+
+5.
+What does useState take as parameters
+a. component reference
+b. App module
+c. props
+d. A function and dependency array
+Answer d
+
+6.
+What is the first parameter of useEffect
+a. Dependency array
+b. Functional component
+c. A function
+d. None
+Answer c
+
+7.
+What is the second parameter of useEffect
+a. Dependency array
+b. Functional component
+c. A function
+d. None
+Answer a
+
+8.
+Which of the following is sideEffect
+a. Updating the DOM
+b. Fetching and consuming data from  a server API
+c. Setting up a subscription
+d. All of the above
+Answer d

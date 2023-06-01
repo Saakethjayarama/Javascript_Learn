@@ -1,0 +1,23 @@
+{
+  "name": "express-file-structure",
+  "version": "1.0.0",
+  "description": "express file structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saakethjayarama/express.git"
+  },
+  "author": "Saaketh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saakethjayarama/express/issues"
+  },
+  "homepage": "https://github.com/Saakethjayarama/express#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

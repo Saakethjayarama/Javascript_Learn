@@ -1,0 +1,47 @@
+1.
+Menu component consists of?
+a. Menu links
+b. Logo
+c. Brand Name
+d. All of the above
+Answer d
+
+2.
+All the menu links are stored as ?
+a. Array
+b. Object
+c. Strings
+d. Depends on implementation
+Answer d
+
+3.
+Map method is used to
+a. Create component
+b. Create Class
+c. Traverse array
+d. Map an array to other
+Answer c
+
+4.
+React.CreateElement is used to?
+a. To create a Element
+b. To create a class component
+c. To create a functional component
+d. None
+Answer a
+
+5.
+Render method in class component is used to
+a. Return jsx
+b. Return component
+c. Return Array
+d. All of the above
+Answer a
+
+6.
+Babel is used to
+a. Create Elements
+b. Create jsx
+b. To compile JavaScript to run in old browser
+d. All of the above
+Answer b

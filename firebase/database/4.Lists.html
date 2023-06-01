@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+<body>
+    <script>
+
+        const pushRef = database.ref('users').push();
+        // push method generates a unique key every time a new child is added to the specific fb reference. key is generated based on timestamp. list of items are ordered chronologically.
+        
+
+        console.log('🔑 key: ', pushRef.key);
+
+        pushRef.update({
+            imageUrl: 'https://google.co.in',
+            caption: 'lorem epsum dolor',
+            likes: 45,
+            liked_uids: [
+                'abc', 'def'
+            ]
+        })
+    </script>
+</body>
+</html>

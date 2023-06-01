@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div>
+        <span>
+            first
+        </span>
+        <span>
+            2
+        </span>
+        <span>
+            3
+        </span>
+        <span>
+            4
+        </span>
+        <span>
+            5
+        </span>
+        <span>
+            6
+        </span>
+        <span>
+            7
+        </span>
+        <span class="spcl">
+            8
+        </span>
+        <span>
+            9
+        </span>
+        <span>
+            10
+        </span>
+        <span>
+            11
+        </span>
+        <span>
+            12
+        </span>
+        <span>
+            13
+        </span>
+        <span>
+            last
+        </span>
+    </div>
+    <script>
+        $(() => {
+            console.log('first');
+            let x = $('div span').first();
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('last');
+            x = $('div span').last();
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('eq');
+            x = $('div span').eq(12);
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('filter');
+            x = $('div span').filter('.spcl');
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+            console.log('not');
+            x = $('div span').not('.spcl');
+            x.each((index, element) => {
+                console.log(element);
+            })
+
+
+
+        })
+    </script>
+</body>
+
+</html>

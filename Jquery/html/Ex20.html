@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="sub">Sub1</div>
+        <div id="sub">Sub2</div>
+        <div id="subp">Sub paragraph</div>
+        <div id="subp">Sub paragraph</div>
+        <p id="paragraph">Paragraph</p>
+        <button id="btnsub">remove sub</button>
+        <button id="btnsubp">remove subp</button>
+        <button id="subsubp">remove both sub and subp</button>
+    </div>
+
+    <script>
+        $(() => {
+            $('#btnsub').click(() => {
+                $('div').remove('#sub')
+            })
+            $('#btnsubp').click(() => {
+                $('div').remove('#subp')
+            })
+            $('#subsubp').click(() => {
+                $('div').remove('#subp, #sub')
+            })
+        })
+    </script>
+</body>
+
+</html>

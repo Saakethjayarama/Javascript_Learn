@@ -1,0 +1,62 @@
+1. 
+What is the default type of ‘type’ attribute of <input> element?
+a) Text
+b) Password
+c) Numerals
+d) Special Characters
+Answer a
+
+2.
+Which element is used to create multi-line text input?
+a) text
+b) textarea
+c) submit
+d) radio button
+Answer b
+
+3.
+Which attribute is not used for the radio type?
+a) name
+b) value
+c) checked
+d) selected
+Answer d
+
+4.
+Which attribute is used with <select> element?
+a) multiple
+b) selected
+c) name
+d) value
+Answer a
+
+5.
+Which of the following event is most commonly used in form
+a. onChange
+b. onSubmit
+c. onClick
+d. All of the above
+Answer d
+
+6.
+what is the argument passed to event handlers
+a. event
+b. props
+c. state
+d. All of the above
+Answer a
+
+7.
+Which of the following is/are types of form components
+a. Controlled components
+b. UnControlled components
+c. Both a and b
+d. None
+Answer c
+
+8.
+Which of the following is true to get value from form component on value change
+a. event.target.value
+b. prop.target.value
+c. state.target.value
+d. None

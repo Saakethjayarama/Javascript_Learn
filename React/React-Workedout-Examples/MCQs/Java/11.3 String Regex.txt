@@ -1,0 +1,64 @@
+1. Which of the following is not a class of java.util.regex?
+a) Pattern class
+b) matcher class
+c) PatternSyntaxException
+d) Regex class
+
+Answer d
+
+
+2. What is the significance of Matcher class for regular expression in java?
+a) interpretes pattern in the string
+b) Performs match in the string
+c) interpreted both pattern and performs match operations in the string
+d) None of the mentioned.
+
+Answer c
+
+3. Object of which class is used to compile regular expression?
+a) Pattern class
+b) Matcher class
+c) PatternSyntaxException
+d) None of the mentioned
+
+Answer a
+
+4. Which capturing group can represent the entire expression?
+a) group *
+b) group 0
+c) group * or group 0
+d) None of the mentioned
+
+Answer b
+
+5. groupCount reports a total number of Capturing groups.
+a) True
+b) False
+c) --
+d) --
+
+Answer a
+
+6. Which of the following matches nonword character using regular expression in java?
+a) \w
+b) \W
+c) \s
+d) \S
+
+Answer b
+
+7. Which of the following matches end of the string using regular expression in java?
+a) \z
+b) \\
+c) \*
+d) \Z
+
+Answer a
+
+8. What does public int end(int group) return?
+a) offset from last character of the subsequent group
+b) offset from first character of the subsequent group
+c) offset from last character matched
+d) offset from first character matched
+
+Answer a

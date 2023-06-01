@@ -1,0 +1,80 @@
+1. Arrays are passed
+a. Just like normal variables
+b. As references
+c. As static variables
+d. both a and b
+
+Answer d
+
+2. Which braces are used to represent that the array is passed as parameters
+
+a. <>
+b. ?
+c. &
+d. []
+
+Answer d
+
+3. Which of the following signature describes passing of an array as parameters
+
+a. public void foo(int name)
+b. public void foo(int name[])
+c. public void foo(int[] name)
+d. Both b and c
+
+Answer d
+
+4. what does the following function return
+
+public static int foo(int[] list) {
+  int a = -100;
+
+  for(int i = 0; i < list.length; i++) {
+    if(list[i]> a) 
+      a = list[i]
+  }
+
+  return a
+
+}
+
+a. Max element of array
+b. Min element of array
+c. Both a and b
+d. None
+
+Answer a
+
+5. what does the following function return
+
+public static int foo(int[] list) {
+  int a = 10000;
+
+  for(int i = 0; i < list.length; i++) {
+    if(list[i]< a) 
+      a = list[i];
+  }
+
+  return a
+
+}
+
+a. Max element of array
+b. Min element of array
+c. Both a and b
+d. None
+
+Answer b
+
+6. What does the following function return
+
+public static int foo(int[] list) {
+  return list((int) list.length/2);
+}
+
+a. All the elements of array
+b. First element of array
+c. Middle element of array
+d. Last element of array
+
+Answer c

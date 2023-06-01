@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example 3</title>
+  </head>
+  <body>
+    <h1>Creating and adding a node</h1>
+    <div id="content"></div>
+
+    <script>
+      ele = document.createElement("p");
+      content = document.createTextNode("Hello Techie");
+      ele.appendChild(content);
+
+      document.getElementById("content").appendChild(ele);
+    </script>
+  </body>
+</html>

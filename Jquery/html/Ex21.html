@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+    <style>
+        #container {
+            margin: 30px;
+        }
+
+        .dark {
+            position: relative;
+            background-color: black;
+            height: 500px;
+            width: 500px;
+        }
+
+        .light-text {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>Saaketh</div>
+    </div>
+    <button id='white'>color white</button>
+    <button id='dark'>color dark</button>
+
+
+</body>
+<script>
+    $(() => {
+        $('#container').addClass('dark')
+        console.log($('#container').attr('class'))
+        $('#white').click(() => {
+            $('#container').addClass('light-text')
+        })
+        $('#dark').click(() => {
+            $('#container').removeClass('light-text')
+        })
+    })
+</script>
+
+</html>

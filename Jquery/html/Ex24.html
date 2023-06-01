@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="f.png" alt="">
+</body>
+<script>
+    let x = 0
+    $(() => {
+        setInterval(() => {
+            deg = x + 3
+            x = deg
+            if (x >= 360) {
+                x = 0
+            }
+            $('img').css('transform', 'rotate(' + deg + 'deg)')
+        }, 2);
+    })
+
+</script>
+
+</html>

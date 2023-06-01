@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+<body>
+    <div>
+        <input type="button" onclick="add()" value="Add">
+        <input type="button" onclick="update()" value="Update">
+        <input type="button" onclick="del()" value="Delete">
+    </div>
+    
+    <script>
+
+        let key = null;
+
+        function add() {
+            const ref = database.ref('children').push();
+            key = ref.key;
+            ref.set({
+                name: "Saaketh",
+                usn: "1JT18CS015"
+            })
+        }
+
+        function update() {
+            const ref = database.ref(`children/${key}`);
+            ref.set({
+                name: "Vijay",
+                usn: "1JT18CS016"
+            })
+        }
+
+        function del() {
+            const ref = database.ref(`children/${key}`);
+            ref.set({})
+        }
+
+
+        const childRef = database.ref('children')
+
+        childRef.on('child_added', data => {
+            console.log('➕ Added data');
+            console.log('🔑 Key', data.key, ' 🔡', data.val());
+        })
+        
+        childRef.on('child_changed', data => {
+            console.log('✏ Changed data')
+            console.log('🔑 Key', data.key, ' 🔡', data.val());
+        })
+
+        childRef.on('child_removed', data => {
+            console.log('🚮 Delted data', data)
+            console.log('🔑 Key', data.key, ' 🔡', data.val());
+        })
+
+    </script>
+</body>
+</html>

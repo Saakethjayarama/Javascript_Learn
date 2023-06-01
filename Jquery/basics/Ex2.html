@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div ondblclick="$(this).hide()">This selector</div> <!-- this elements gets hidden when clicked -->
+    <p>Element selector</p>
+    <div id="myid">Id Selector</div>
+    <div class="myclass">Class Selector</div>
+</body>
+
+<script>
+    $(document).ready(() => { //when the document gets rendered
+        $("p").hide()   //elements with p tag are hidden
+        $("#myid").hide() // elements with id myid are hidden 
+        $('.myclass').hide() //elements with class myclass are hidden
+    })
+    $(() => {
+        console.log('hidden')
+    })
+</script>
+
+</html>

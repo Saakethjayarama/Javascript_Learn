@@ -1,0 +1,46 @@
+1.
+GET request are used to
+a. Fetch data from server
+b. Send data to server
+c. Both can fetch and send data to server
+Answer a
+
+2.
+Sensitive data
+a. Should not be sent using GET request
+b. Should only be sent using GET request
+c. Both a and b
+d. None
+Answer a
+
+3.
+Does get request have length restrictions
+a. Depends on the data being sent
+b. Has length restrictions
+c. Does not have length restrictions
+d. None
+Answer b
+
+4.
+GET requests are
+a. Cached
+b. Remains in browser history
+c. Both a and b
+d. None
+Answer c
+
+5.
+Which of the following is not true about GET request
+a. Cached
+b. Used to send sensitive data
+c. Used to receive data
+d. All of the above
+Answer b
+
+6.
+Which of the following is true about GET request
+a. GET requests are only used to request data (not modify)
+b. GET requests have length restrictions
+c. GET requests should never be used when dealing with sensitive data
+d. All of the above
+Answer d

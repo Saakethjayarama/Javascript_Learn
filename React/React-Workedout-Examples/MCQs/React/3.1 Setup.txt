@@ -1,0 +1,47 @@
+1.
+Which of the following is not required to create react app
+a. node
+b. npm
+c. npx
+d. ng
+Answer: d
+
+2.
+What are the packages that needs to be installed before creating react app
+a. create-react-app
+b. material-ui
+c. npx
+d. Both a and c
+Answer: d
+
+3.
+How are npx and create-react-app are to be installed
+a. Locally
+b. Globally
+c. Can be installed in either ways
+d. None
+Answer: b
+
+4.
+Command used to create react app
+a. npm install app_name
+b. npx create-react-app app_name
+c. npm create app_name
+d. npm install create-react-app -g
+Answer: b
+
+5.
+How to start react app
+a. npm run serve
+b. npm run
+c. npm start
+d. npm boot
+Answer: c
+
+6.
+By default react app opens on which port
+a. 1500
+b. 1505
+c. 3000
+d. 80
+Answer: c

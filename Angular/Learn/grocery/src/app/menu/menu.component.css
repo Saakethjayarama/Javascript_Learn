@@ -1,0 +1,17 @@
+section {
+  display: inline-block;
+  width: 20%;
+  box-sizing: border-box;
+  height: 85vh;
+}
+
+.item {
+  margin: 20px;
+  text-transform: capitalize;
+  padding: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.item:hover {
+  background-color: rgb(189, 245, 189);
+}

@@ -1,0 +1,48 @@
+1.
+Custom hook is a
+a. Javascript function
+b. Javascript class
+c. React component
+d. All of the above
+Answer a
+
+2.
+Custom hook starts with
+a. Capital Letter
+b. $
+c. $ or use
+d. use
+Answer d
+
+3.
+Custom hook
+a. can call other Hooks
+b. cannot call other Hooks
+c. cannot have variables of its own
+d. Both a and c
+Answer a
+
+4.
+Using hooks can help
+a. To extract component logic into reusable code
+b. To create reusable components
+c. Both a and b
+d. None
+Answer a
+
+5.
+Which of the following is proper naming convention for hooks
+a. UseWrapper
+b. useWrapper
+c. WrapperUse
+d. Wrapperuse
+Answer b
+
+6.
+Which of the following is true
+a. custom hooks are the combination 
+b. custom hooks are functional components
+c. custom hooks are class components
+d. None
+
+

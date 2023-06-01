@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+<body>
+    <div id="form">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="USN">
+        <select name="ppl">
+
+        </select>
+        <input type="button" onclick="del()" value="Delete">
+    </div><br/>
+    <div id="results">
+    </div>
+    <script>
+        let data = null;
+        let selected = null;
+
+
+        // retrieves once
+        const dbRef = database.ref('friends').once('value').then(snapshot => {
+            data = snapshot.val();
+            
+            console.log('🤯 Values: ', data);
+            
+            content = ``;
+            for([key, value] of Object.entries(data)){
+                console.log('🔑 Key: ', key, ' ⚛ Value: ', value);
+                const {name} = value;
+                content += `<option value="${key}">${name}</option>`
+            }
+            
+            document.querySelector('select[name=ppl]').innerHTML = content;
+            selected = document.querySelector('select[name=ppl]').value;
+
+            const name = document.querySelector('input[placeholder=Name]').value = data[selected].name;
+            const usn = document.querySelector('input[placeholder=USN]').value = data[selected].usn;
+
+            console.log('✅ selected: ', selected)
+            
+        })
+
+        document.querySelector('select[name=ppl]').onchange = (event) => {
+            console.log('🔥 Entered onchange');
+            selected = document.querySelector('select[name=ppl]').value
+
+            const name = document.querySelector('input[placeholder=Name]').value = data[selected].name;
+            const usn = document.querySelector('input[placeholder=USN]').value = data[selected].usn;
+            
+        }
+
+        function del(){
+            database.ref(`friends/${selected}/`).set({}, err =>{
+                if(err) {
+                    console.log('Error updating ❌ :- Err: ', err);
+                }else {
+                    console.log('Updated ✅');
+                }
+            }).then(res => {
+                console.log('Deleted ❌');
+            }).catch(err => {
+                console.log('Err deleting 😵');
+            })
+
+
+            //setting to empty object deletes the doc
+            // set or update method are used to update value
+            //set and update method returns promise and also takes call back as parameter, if err is occured call back would be called with err obj.
+        }
+    </script>
+</body>
+</html>

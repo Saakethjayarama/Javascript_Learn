@@ -1,0 +1,9 @@
+header {
+  background-color: black;
+  color: white;
+  height: 15vh;
+  box-sizing: border-box;
+  font-size: 65px;
+  padding: 20px 0;
+  text-align: center;
+}

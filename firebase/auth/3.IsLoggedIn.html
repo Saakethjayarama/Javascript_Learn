@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+<body>
+    <h3>Auth State</h3>
+    <h4 id="isSignedIn"></h4>
+    <input type="text" id='email'placeholder="Email"/>
+    <input type="password" placeholder="Password"/>
+    <button onclick="login()">Login</button><br/>
+    <button onclick="signout()">Signout</button><br/>
+    <button onclick="startListening()">Start Listening</button><br/>
+    <button onclick="stopListening()">Stop Listening</button><br/>
+    <h4 id="result"></h4>
+    <script>
+        function login() {
+            const email = document.querySelector('#email').value;
+            const password = document.querySelector('input[type=password]').value;
+            auth.signInWithEmailAndPassword(email, password)
+            .then(user => {
+                document.querySelector('#result').innerHTML = `<b>UID: ${user.user.uid}</b><br />`;
+            })
+            .catch(err => {
+                document.querySelector('#result').innerHTML = `<b>ERR_MESSAGE: ${err.message}<b/>`;
+            })
+        }
+
+        function signout() {
+            auth.signOut()
+            .then(() => {
+                document.querySelector('#result').innerHTML = `Signed out`;
+            })
+            .catch(err => {
+                document.querySelector('#result').innerHTML = `ERR_MESSAGE: ${err.message}`;
+            })
+        }
+        
+        let authState = null;
+
+        function startListening() {
+
+            authState = auth.onAuthStateChanged((user) => {
+                if(user){
+                    document.querySelector('#isSignedIn').innerHTML = `Yep 😊, user is Signed In`;
+                }else {
+                    document.querySelector('#isSignedIn').innerHTML = `Nop 😐, user is not Signed In`;
+                }
+            })
+        }
+
+        function stopListening() {
+            document.querySelector('#isSignedIn').innerHTML = '';
+            authState();
+        }
+    </script>
+</body>
+</html>

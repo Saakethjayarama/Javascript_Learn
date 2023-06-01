@@ -1,0 +1,65 @@
+1) Java is a ___ programming language.
+
+A) Functional
+B) Object-Oriented
+C) Theoretical
+D) All the above
+
+Answer b
+
+2) In Java programming language, the code is placed inside ___.
+A) Classes, Interfaces
+B) Methods
+C) Blocks
+D) All the above
+
+Answer d
+
+3) Properties are implemented using ___ in Java.
+A) Methods
+B) Variables
+C) Interfaces
+D) All the above
+
+Answer b
+
+4) A Class in Java is like a ____.
+A) Prototype
+B) Instruction Sheet
+C) Blueprint
+D) All the above
+
+Answer d
+
+5) Which is the file extension used for a public Java class source code?
+A) .j
+B) .class
+C) .java
+D) None
+
+Answer c
+
+6) Which is the file extension used for a compiled Java class file?
+A) .j
+B) .java
+C) .class
+D) .cls
+
+Answer c
+
+7) State TRUE or FALSE.
+The source-code of An Abstract-Class or Interface is kept inside a .java file.
+A) FALSE
+B) TRUE
+C) -
+D) -
+
+Answer b
+
+8) After compilation, an Interface or Abstract-Class is kept in a ___ file in Java programming.
+A) .java
+B) .cls
+C) .class
+D) .interface
+
+Answer c

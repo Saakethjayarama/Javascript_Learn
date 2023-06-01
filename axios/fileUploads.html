@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <title>Axios file</title>
+  </head>
+  <body>
+    <input type="file" id="file" />
+    <button onclick="submit()">submit</button>
+    <script>
+      const submit = () => {
+        let formData = new FormData();
+        let imgFile = document.querySelector("#file");
+
+        formData.append("ee", imgFile.files[0]);
+        formData.append("_id", 55);
+        axios
+          .post("http://localhost/Crackers/test", formData)
+          .then((res) => {
+            console.log(res);
+          })
+          .catch((err) => {
+            console.error(err);
+          });
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+1.
+Hooks are introduced in the version
+a. 16.8
+b. 17.8
+c. 18.8
+d. 19.8
+Answer a
+
+2.
+Hooks are used to
+a. Allows you to use state and other React features without writing a class.
+b. Allows to use lifecylcle methods
+c. Both a and b
+d. None
+Answer c
+
+3.
+Hooks cannot work inside classes
+a. True
+b. False
+c. Depends on Implementation
+d. None
+Answer a
+
+4.
+Hooks can only be called at the Top Level
+a. True
+b. False
+c. Depends on Implementation
+d. None
+Answer a
+
+5.
+Which of the following are basic Hooks
+a. useState
+b. useEffect
+c. Both a and b
+d. None
+Answer c
+
+6.
+Hooks are used when
+a. When we want to add state to functional component
+b. To convert functional component to Class component
+c. To write class component inside functional component
+d. None
+Answer a
+
+7.
+Which of the following is not the rule of Hook
+a. Only call Hooks at the top level
+b. Only call Hooks from React functions
+c. Hooks can be used to add state to functinal component
+d. None
+Answer d
+
+8.
+Which is not true about Hooks
+a. Hooks always starts with use
+b. Hooks are special functions which can only be called inside functional components
+c. Hooks can be used to interact with different phazes of the component
+d. None
+Answer d

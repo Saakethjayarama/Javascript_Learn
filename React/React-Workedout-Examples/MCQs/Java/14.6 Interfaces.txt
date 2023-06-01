@@ -1,0 +1,120 @@
+1. Which of these keywords is used to define interfaces in Java?
+a) interface
+b) Interface
+c) intf
+d) Intf
+
+Answer a
+
+2. Which of these can be used to fully abstract a class from its implementation?
+a) Objects
+b) Packages
+c) Interfaces
+d) None of the Mentioned
+
+Answer c
+
+3. Which of these access specifiers can be used for an interface?
+a) Public
+b) Protected
+c) private
+d) All of the mentioned
+
+Answer a
+
+4. Which of these keywords is used by a class to use an interface defined previously?
+a) import
+b) Import
+c) implements
+d) Implements
+
+Answer c
+
+5. Which of the following is the correct way of implementing an interface salary by class manager?
+a) class manager extends salary {}
+b) class manager implements salary {}
+c) class manager imports salary {}
+d) none of the mentioned
+
+Answer b
+
+6. Which of the following is an incorrect statement about packages?
+a) Interfaces specifies what class must do but not how it does
+b) Interfaces are specified public if they are to be accessed by any code in the program
+c) All variables in interface are implicitly final and static
+d) All variables are static and methods are public if interface is defined pubic
+
+Answer d
+
+7. What will be the output of the following Java program?
+
+    interface calculate
+    {
+        void cal(int item);
+    }
+    class display implements calculate
+    {
+        int x;
+        public void cal(int item)
+        {
+            x = item * item;            
+        }
+    }
+    class interfaces
+    {
+        public static void main(String args[])
+        {
+            display arr = new display;
+            arr.x = 0;      
+            arr.cal(2);
+            System.out.print(arr.x);
+        }
+    }
+a) 0
+b) 2
+c) 4
+d) None of the mentioned
+
+Answer c
+
+8. What will be the output of the following Java program?
+
+    interface calculate
+    {
+        void cal(int item);
+    }
+    class displayA implements calculate
+    {
+        int x;
+        public void cal(int item)
+        {
+            x = item * item;            
+        }
+    }
+    class displayB implements calculate
+    {
+        int x;
+        public void cal(int item)
+        {
+            x = item / item;            
+        }
+    }
+    class interfaces 
+    {
+        public static void main(String args[])
+        {
+            displayA arr1 = new displayA;
+            displayB arr2 = new displayB;
+            arr1.x = 0;
+            arr2.x = 0;      
+            arr1.cal(2);
+            arr2.cal(2);
+            System.out.print(arr1.x + " " + arr2.x);
+        }
+    }
+a) 0 0
+b) 2 2
+c) 4 1
+d) 1 4
+
+Answer c

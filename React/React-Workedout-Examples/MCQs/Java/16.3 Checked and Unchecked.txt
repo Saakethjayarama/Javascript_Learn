@@ -1,0 +1,47 @@
+1. When does Exceptions in Java arises in code sequence?
+a) Run Time
+b) Compilation Time
+c) Can Occur Any Time
+d) None of the mentioned
+
+Answer a
+
+2. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+
+Answer c
+
+3. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer a
+
+4. Which of the following is not a type of Exception
+a) Checked Exception
+b) Unchecked Exception
+c) Both a and b
+d) Ticked Exception
+
+Answer d
+
+5. Which of these class is related to all the exceptions that can be caught by using catch?
+a. Error 
+b. Exception
+c. RuntimeExecption
+d. All of the mentioned
+
+Answer: b
+
+6. Which of the following is not Unchecked Exception
+a. ArithmeticException
+b. NullPointerException
+c. ArrayIndexOutOfBoundsException
+d. SQLException
+
+Answer d

@@ -1,0 +1,38 @@
+1.
+POST request are used to
+a. Fetch data from server
+b. Send data to server
+c. Both can fetch and send data to server
+Answer b
+
+2.
+Sensitive data
+a. Can be sent using POST request
+b. Cannot  be sent using POST request
+c. Depends on developer
+d. None
+Answer a
+
+3.
+Does POST request have length restrictions
+a. Depends on the data being sent
+b. Has length restrictions
+c. Does not have data length restrictions
+d. None
+Answer c
+
+4.
+POST requests are
+a. Cached
+b. Remains in browser history
+c. Both a and b
+d. None
+Answer d
+
+5.
+Which of the following is not true about GET request
+a. POST requests are never cached
+b. POST requests do not remain in the browser history
+c. POST requests cannot be bookmarked
+d. All of the above
+Answer d

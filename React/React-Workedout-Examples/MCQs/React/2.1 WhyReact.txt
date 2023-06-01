@@ -1,0 +1,50 @@
+1.  
+Which of the following is/are benifits of component based development
+b. Better reusability
+c. Both a and b
+d. None
+Answer: c
+
+2. 
+React is
+b.Module based
+c.Both of above
+d.None of above   
+Answer: a
+
+3. 
+Components are
+b. Building blocks of react app
+c. Both a and b
+d. None of the above
+Answer: c
+
+4. 
+How many types of components are in react
+b. 1
+c. 4
+d. 3
+Answer: a
+
+5. 
+Which of the following is not a component type in react
+b. JS Object Component
+c. Class Component
+d. None
+Answer: b
+
+6. 
+Components are stored in what type of files
+a. .html file
+b. .css file
+c. .js file
+d. .xml file
+Answer: c
+
+7. 
+What does components return/render
+a. css
+b. html
+c. jsx
+d. React Object
+Answer: c

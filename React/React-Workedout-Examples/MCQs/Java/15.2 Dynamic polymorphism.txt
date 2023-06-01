@@ -1,0 +1,48 @@
+1. Which among the following can show polymorphism?
+a) Overloading ||
+b) Overloading +=
+c) Overloading <<
+d) Overloading &&
+
+Answer c
+
+
+2. Polymorphism is possible in Java language.
+a) True
+b) False
+c) --
+d) --
+
+Answer a
+
+3. Which problem may arise if we use abstract class functions for polymorphism?
+a) All classes are converted as abstract class
+b) Derived class must be of abstract type
+c) All the derived classes must implement the undefined functions
+d) Derived classes can’t redefine the function
+
+Answer c
+
+4. Which among the following is not true for polymorphism?
+a) It is feature of OOP
+b) Ease in readability of program
+c) Helps in redefining the same functionality
+d) Increases overhead of function definition always
+
+Answer d
+
+5. If 2 classes derive one base class and redefine a function of base class, also overload some operators inside class body. Among these two things of function and operator overloading, where is polymorphism used?
+a) Function overloading only
+b) Operator overloading only
+c) Both of these are using polymorphism
+d) Either function overloading or operator overloading because polymorphism can be applied only once in a program
+
+Answer d
+
+6. Which of the following is dynamic polymorphism.
+a) Method overriding
+b) Method Overloading
+c) Inheritance
+d) all of the above
+
+Answer a

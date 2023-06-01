@@ -1,0 +1,60 @@
+1. The number of objects in a Web page which consists of 4 jpeg images and HTML text is ________
+a) 4
+b) 1
+c) 5
+d) 7
+Answer c
+
+2. The default connection type used by HTTP is _________
+a) Persistent
+b) Non-persistent
+c) Can be either persistent or non-persistent depending on connection request
+d) None of the mentioned
+Answer a
+
+3. The HTTP request message is sent in _________ part of three-way handshake.
+a) First
+b) Second
+c) Third
+d) Fourth
+Answer c
+
+4.
+ In the process of fetching a web page from a server the HTTP request/response takes __________ RTTs.
+a) 2
+b) 1
+c) 4
+d) 3
+Answer b
+
+5.
+The first line of HTTP request message is called _____________
+a) Request line
+b) Header line
+c) Status line
+d) Entity line
+Answer a
+
+6.
+The values GET, POST, HEAD etc are specified in ____________ of HTTP message
+a) Request line
+b) Header line
+c) Status line
+d) Entity body
+Answer a
+
+7.
+The __________ method when used in the method field, leaves entity body empty.
+a) POST
+b) SEND
+c) GET
+d) PUT
+Answer c
+
+8.
+The HTTP response message leaves out the requested object when ____________ method is used
+a) GET
+b) POST
+c) HEAD
+d) PUT
+Answer c

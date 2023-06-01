@@ -1,0 +1,72 @@
+1. 
+What does a Data Type in Java refers to?
+A) The place where data is stored
+B) The technique how data is retreived
+C) The type or variety of data being handled for reading and writing
+D) None of the above
+
+Answer c
+
+
+2.
+Choose the wrong statement about Java programming?
+A) Java supports unsigned integers
+B) Java supports signed integers
+C) Java supports signed char
+D) None of the above
+
+Answer a
+
+3.
+Which data type among the following is an implementation of Objects or OOPs?
+A) byte
+B) int
+C) char
+D) None of the above
+
+Answer d
+
+4.
+What is a Primitive Data Type in Java?
+A) Data type, which is implemented in an Object-oriented way.
+B) Data Type which is implemented in a machine-dependent way
+C) Data Type which is implemented in a non-object oriented way.
+D) None of the above
+
+Answer c
+
+5.
+which among the following is not a Data Type in Java?
+A) short
+B) int
+C) long double
+D) double
+
+Answer c
+
+6.
+Which among the following is not a valid Data Type in Java?
+A) long
+B) bool
+C) double
+D) float
+
+Answer b
+
+7.
+Which is the data type used mostly to handle streams and buffers in Java language?
+A) short
+B) int
+C) byte
+D) float
+
+Answer c
+
+8.
+Which is the data type that is not recommended for numeric applications in Java?
+A) byte
+B) float
+C) int
+D) long
+
+Answer a

@@ -1,0 +1,51 @@
+1. Which of the following is not a type of module
+a. Named Module
+b. Renamed Module
+c. Unnamed Module
+d. Automated Module
+
+Answer b
+
+2. Which of the following is a type of module
+
+a. Renamed Module
+b. Automated Module
+c. Inherited Module
+d. Parent Module
+
+Answer b
+
+3. Which of the following type contains module-info.java file
+
+a. Named Module
+b. Renamed Module
+c. Unnamed Module
+d. Both a and c
+
+Answer a
+
+4. Which of the following is loaded from module path
+
+a. Named module
+b. Unnamed Module
+c. Automated Module
+d. Both a and b
+
+Answer d
+
+5. Which of the following is loaded from class path
+a. Named module
+b. Unnamed Module
+c. Automated Module
+d. Both a and b
+
+Answer c
+
+6. Which of the following modules name is derived directly from jar file
+
+a. Named module
+b. Unnamed module
+c. Automated module
+d. All of the above
+
+Answer c

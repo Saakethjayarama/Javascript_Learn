@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Department</title>
+  </head>
+  <body>
+    <form action="/department" method="post">
+      <select name="department">
+        <option value="CSE" <%= helper.isSelected('CSE')%>>Computer Science & Engineering</option>
+        <option value="ISE" <%= helper.isSelected('ISE')%>>Information Sceince & Engineering</option>
+        <option value="AIML" <%= helper.isSelected('AIML')%>>Artifical Intelligence & Machine Learning</option>
+        <option value="ECE" <%= helper.isSelected('ECE')%>>Electronics & Communication</option>
+        <option value="ME" <%= helper.isSelected('ME')%>>Mechanical Engineering</option>
+        <option value="CV" <%= helper.isSelected('CV')%>>Civil Engineering</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+    <% if(department) { %>
+      <p><%=department%> Selected</p>
+    <% } %>
+  </body>
+</html>

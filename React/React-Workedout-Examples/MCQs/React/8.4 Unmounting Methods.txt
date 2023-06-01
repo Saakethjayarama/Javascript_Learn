@@ -1,0 +1,63 @@
+1.
+How many methods does the unmounting phaze have
+a. 1
+b. 2
+c. 5
+d. 4
+Answer a
+
+2.
+Which of the following is not unmounting method
+a. constructor()
+b. render()
+c. shouldComponentUpdate()
+d. All of the above
+Answer d
+
+3.
+Which of the following is not unmounting method
+a. static getDerivedStateFromProps()
+b. shouldComponentUpdate()
+c. render()
+d. All of the above
+Answer d
+
+4.
+Which of the following is unmounting method
+a. constructor()
+b. destroy()
+c. componentWillUnmount()
+d. None
+Answer c
+
+5.
+Which of the following is true?
+a. ComponentDidUpdate method executes after unmounting
+b. constructor does not execute at all
+c. Both a & b
+d. None
+Answer a
+
+6.
+Unmounting methods
+a. Use to interat with components before unmounting component
+b. Use to interact with React App
+c. Used to both mount and unmount components
+d. Both b and c
+Answer a
+
+7.
+componentWillUnmount
+a. Is invoked immediately before a component is unmounted
+b. Perform any necessary cleanup in this method
+c. Both a and b
+d. None
+Answer c
+
+8.
+Should not call setState() in componentWillUnmount() because
+a. The component will never be re-rendered.
+b. Component instance is unmounted
+c. Updating state cannot re render
+d. All of the above
+Answer d

@@ -1,0 +1,75 @@
+1. Which of these keywords is used to define packages in Java?
+a) pkg
+b) Pkg
+c) package
+d) Package
+
+Answer c
+
+2. Which of these is a mechanism for naming and visibility control of a class and its content?
+a) Object
+b) Packages
+c) Interfaces
+d) None of the Mentioned.
+
+Answer b
+
+3. Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?
+a) Public
+b) Protected
+c) No Modifier
+d) All of the mentioned
+
+Answer d
+
+4. Which of these access specifiers can be used for a class so that its members can be accessed by a different class in the different package?
+a) Public
+b) Protected
+c) Private
+d) No Modifier
+
+Answer a
+
+5. Which of the following is the correct way of importing an entire package ‘pkg’?
+a) import pkg.
+b) Import pkg.
+c) import pkg.*
+d) Import pkg.*
+
+Answer c
+
+6. Which of the following is an incorrect statement about packages?
+a) Package defines a namespace in which classes are stored
+b) A package can contain other package within it
+c) Java uses file system directories to store packages
+d) A package can be renamed without renaming the directory in which the classes are stored
+
+Answer d
+
+7. Which of the following package stores all the standard java classes?
+a) lang
+b) java
+c) util
+d) java.packages
+
+Answer b
+
+8. What will be the output of the following Java program?
+
+    package pkg;
+    class output 
+    {
+        public static void main(String args[])
+        {
+            StringBuffer s1 = new StringBuffer("Hello World");
+            s1.insert(6 , "Good ");
+            System.out.println(s1);
+        }
+   }
+Note : Output.class file is not in directory pkg.
+a) HelloGoodWorld
+b) HellGoodoWorld
+c) Compilation error
+d) Runtime error
+
+Answer d

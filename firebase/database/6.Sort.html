@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="../firebase-init.js"></script>
+</head>
+    <div>
+        <button onclick="get()">Get</button>
+        <button onclick="child()">By child</button>
+        <button onclick="kee()">By Key</button>
+        <button onclick="val()">By Value</button>
+    </div>
+    <div id="results">
+    </div>
+<body>
+    <script>
+        function addData() {
+
+            const ref = database.ref('sort')
+            
+            const data = [
+                {
+                    caption: 'If u dont like my attitude repot at idc.com',
+                    likes: 5
+                },
+                {
+                    caption: 'Everything you need is already inside you',
+                    likes: 15
+                },
+                {
+                    caption: 'Let me hate',
+                    likes: 10
+                },
+                {
+                    caption: 'Fire',
+                    likes: 12
+                }
+            ]
+    
+            data.forEach(post => {
+                ref.push(post)
+            });
+        }
+        // addData();
+
+        function mounter (data) {
+            let content = ``;
+            data.forEach(post => {
+                content += `<div>${post.caption} :<b>${post.likes}</b></div>`;
+            });
+            document.querySelector('#results').innerHTML = content
+        }
+
+        function get() {
+
+            database.ref('sort').once('value').then(snapshot => {
+                const data = snapshot.val();
+
+                datum = [];
+                for([key, value] of Object.entries(data)){
+                    value["id"] = key;
+                    datum.push(value);
+                }
+
+                mounter(datum);
+            })
+
+        }
+
+        function child() {
+            
+            database.ref('sort').orderByChild('likes').once('value')
+            .then(snapshot => {
+                const data = snapshot.val();
+
+                datum = [];
+                for([key, value] of Object.entries(data)){
+                    value["id"] = key;
+                    datum.push(value);
+                }
+
+                mounter(datum);
+            })
+
+        }
+
+        function kee() {
+            database.ref('sort').orderByKey().once('value')
+            .then(snapshot => {
+                const data = snapshot.val();
+
+                datum = [];
+                for([key, value] of Object.entries(data)){
+                    value["id"] = key;
+                    datum.push(value);
+                }
+
+                mounter(datum);
+            })
+        }
+    
+        function val() {
+            database.ref('sort').orderByValue().once('value')
+            .then(snapshot => {
+                const data = snapshot.val();
+
+                datum = [];
+                for([key, value] of Object.entries(data)){
+                    value["id"] = key;
+                    datum.push(value);
+                }
+
+                mounter(datum);
+            })
+        }
+    </script>
+</body>
+</html>

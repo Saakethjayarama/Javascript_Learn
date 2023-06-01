@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="one">
+        <span id="yes" class="one">
+            saaketh
+            <span id="yes" class="two">
+                saaketh
+            </span>
+        </span>
+
+    </div>
+    <span id="twoo">
+        <div>
+            Saaketh
+            <div>
+                mama
+            </div>
+            <div>
+                papa
+            </div>
+        </div>
+        <div>
+            Vijay
+            <div>
+                mama
+            </div>
+            <div>
+                papa
+            </div>
+        </div>
+    </span>
+    <script>
+        $(() => {
+            let yess = $('#one').find('#yes')
+            yess.each((index, element) => {
+                console.log(element);
+            })
+
+            let mamapapa = $('#twoo').find('*');
+            mamapapa.each((index, element) => {
+                console.log(element);
+            })
+        })
+    </script>
+</body>
+
+</html>

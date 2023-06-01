@@ -1,0 +1,57 @@
+1.
+How many phazes does a component have ?
+a. 1
+b. 2
+c. 4
+d. None
+Answer c
+
+2. Which of the following does not belong to component's phaze.
+a. Mounting
+b. Updating
+c. Unmounting
+d. Destroying
+Answer d
+
+3. How many methods methods does Mounting phaze have
+a. 1
+b. 2
+c. 3
+d. 4
+Answer d
+
+4. Which one of the following is not mounting method?
+a. componentDidMount()
+b. constructor()
+c. render()
+d. None
+Answer d
+
+5. How many methods does Updating phaze have
+a. 5
+b. 4
+c. 3
+d. 1
+Answer a
+
+6. Which one of the following is not updating method?
+a. render()
+b. componentDidUpdate()
+c. shouldComponentUpdate()
+d. destroy()
+Answer d
+
+7. How many methods does Unmounting phaze have
+a. 1
+b. 2
+c. 3
+d. 4
+Answer a
+
+8. Which of the following is a unmounting method?
+a. render()
+b. constructor()
+c. componentWillUnmount()
+d. None
+
+

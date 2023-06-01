@@ -1,0 +1,115 @@
+1) What is the output of the following program?
+
+
+class Main {
+    public static void main(String[] args)
+    {
+        Double x1, y1, z1;
+        double x2, y2, z2;
+        x1 = 10.0;
+        y1 = 4.0;
+        z1 = x1 * x1 + y1 * y1;
+        x2 = 10.0;
+        y2 = 4.0;
+        z2 = x2 * x2 + y2 * y2;
+        System.out.print(z1 + " ");
+        System.out.println(z2);
+    }
+}
+
+A. 116.0 116.0
+B. Run-time error
+C. Compile-time error
+D. 116 116.0
+
+Answer a
+
+2) What is the output of the following program?
+
+
+class Main {
+    public static void main(String[] args)
+    {
+        Boolean b1 = true;
+        Boolean b2 = false;
+        System.out.print((b1 == b2) + " ");
+        System.out.print(b1.equals(b2));
+    }
+}
+
+A. Compile-time error
+B. false false
+C. false true
+D. true true
+
+Answer: B
+
+3) What is the output of the following program?
+
+
+class Main {
+    public static void main(String args[])
+    {
+        Double x = new Double(10);
+        double i = x.doubleValue();
+        System.out.print(i + " " + x);
+    }
+}
+
+A. Compile-time error
+B. 10 10
+C. 10.0 10.0
+D. 10 10.0
+
+Answer: C
+
+4) What is the output of the following program?
+
+
+class Main {
+    static int funct(Integer x)
+    {
+        return x;
+    }
+    public static void main(String args[])
+    {
+        Integer x = funct(10);
+        System.out.println(x);
+    }
+}
+
+A. Compile-time error
+B. Run-time error
+C. 10
+D. No output
+
+Answer: C
+
+5) What is the output of the following program?
+
+
+class Main {
+    public static void main(String args[])
+    {
+        Boolean b1 = "TRUE";
+        Boolean b2 = "FALSE";
+        boolean b = b1 && b2;
+        System.out.println(b);
+    }
+}
+
+A. Compile-time error
+B. FALSE
+C. false
+D. TRUE
+
+Answer: A
+
+6) Conversion of int to Integer is known as
+
+A. Boxing
+B. Unboxing
+C. Both a and b
+D. None
+
+Answer: A

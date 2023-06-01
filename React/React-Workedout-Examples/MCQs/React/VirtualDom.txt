@@ -1,0 +1,64 @@
+1.
+DOM stands for
+a. Document Object Model
+b. Developers Object Model
+c. Disk Operational Model
+d. Both b & c
+Answer a
+
+2.
+Virtual DOM is a Object representation of
+a. DOM Object
+b. JavaScript Object
+c. JSON Object
+d. None
+Answer a
+
+3.
+Which of the following is true
+a. Manipulating DOM is slow
+b. Manipulating Virtual DOM is fast
+c. Both a & b
+d. None
+Answer c
+
+4.
+Why is DOM manipulation slow
+a. DOM Object is very big
+b. DOM Object updation updates user screen as welll
+c. Multiple updates are required to update DOM
+d. None
+Answer b
+
+5.
+What does DOM represents
+a. UI of application
+b. Background tasks of website
+c. Javascript Object
+d. None
+Answer a
+
+6.
+Virtual DOM is
+a. Virtual representation of DOM
+b. Representation of Javascript Object
+c. Both a & b
+d. None
+Answer a
+
+7.
+Which of the following is not a step in update process
+a. State Change
+b. Compute diff
+c. Reload
+d. Re-render
+Answer c
+
+8.
+Which of the following is more costlier
+a. Updating DOM
+b. Updating Virtual DOM
+c. Both a & b
+d. None
+Answer a
+

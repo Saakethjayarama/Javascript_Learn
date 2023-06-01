@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="four">
+        <span id="one">
+            <div id="two">
+                <span id="three">
+                    hi
+                </span>
+            </div>
+        </span>
+    </div>
+</body>
+<script>
+    $(() => {
+        var x = $('#three').parents('div#two');
+        x.each((index, elem) => {
+            console.log(elem);
+        })
+    })
+</script>
+
+</html>

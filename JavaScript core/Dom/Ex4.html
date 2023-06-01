@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example 4</title>
+  </head>
+  <body>
+    <script>
+      function delEl1() {
+        x = document.getElementById("content").childNodes[1].remove();
+      }
+
+      function delEl2() {
+        x = document.getElementById("content").childNodes[3].remove();
+      }
+    </script>
+    <h1>Removing a child</h1>
+    <div id="content">
+      <p>Hello Techie</p>
+      <div>
+        <p>This is another Hello</p>
+      </div>
+    </div>
+
+    <button onclick="delEl1()">delete node 1</button>
+    <button onclick="delEl2()">delete node 2</button>
+  </body>
+</html>

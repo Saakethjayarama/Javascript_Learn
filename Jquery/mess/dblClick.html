@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <div id="product">
+        <div id="container" ondblclick="doubleClick(this)">
+            saaketh
+            <!-- <p id="content">45</p> -->
+        </div>
+    </div>
+    <button>click</button>
+    <script>
+        const doubleClick = () => {
+            console.log(this)
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function deadcode() {
+            const doubleClick = (this) => {
+                console.log(this)
+                let content = $(this).children('#content');
+                $(this).dblclick(() => {
+                    let value = $(content).text();
+                    console.log(value);
+                    $(this).empty();
+                    let x = $('<input id="content" type="text"></input>').val(value);
+                    $(this).append(x);
+                })
+
+            }
+
+            const onEnter = (this) => {
+                $(document).on("keypress", "#content", function (e) {
+                    if (e.which == 13) {
+                        let value = $('#content').val()
+                        let x = $('<p id="#content"></p>').text(value)
+                        $(this).empty();
+                        $(this).append(x);
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

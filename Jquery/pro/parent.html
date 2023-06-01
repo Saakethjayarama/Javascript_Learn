@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Parent</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>USN</th>
+            <th>action</th>
+        </tr>
+        <tr>
+            <td>Saaketh</td>
+            <td>1JT18CS015</td>
+            <td><button class="submit">submit</button></td>
+        </tr>
+    </table>
+</body>
+<script>
+    $(() => {
+        $(document).on('click', '.submit', () => {
+            var tds = $(this).parents('tr').find('td');
+        })
+    })
+</script>
+
+</html>

@@ -1,0 +1,47 @@
+1. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer c
+
+2. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+
+Answer a
+
+3. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+
+Answer c
+
+4. Which of the following should be true of the object thrown by a thrown statement?
+a) Should be assignable to String type
+b) Should be assignable to Exception type
+c) Should be assignable to Throwable type
+d) Should be assignable to Error type
+
+Answer c
+
+5. At runtime, error is recoverable.
+a) True
+b) False
+c) --
+d) --
+
+Answer b
+
+6. The order of Exceptions classes in catch part should be
+a. Parent to Child
+b. Child to Parent
+c. Any order
+d. None
+
+Answer b

@@ -1,0 +1,47 @@
+1. 
+What all are required to build React application
+a. Code Editor
+b. npx
+c. npm
+d. All of the above
+Answer d
+
+2.
+Which editor do we use to create application
+a. Sublime text
+b. Brackets
+c. InteliJ
+d. VSCode
+Answer d
+
+3.
+Command to install npx
+a. npm i npx -g
+b. npm i npx
+c. npm remove npx
+d. All of the above
+Answer a
+
+4.
+Command to create react application
+a. create-react-app app_name
+b. app_name create-react-app
+c. npx create-react-app app_name
+d. npx app_name create-react-app
+Answer c
+
+5.
+Command to start react application
+a. npm start
+b. npm run
+c. npm i run
+d. npm i start -g
+Answer a
+
+6.
+Which is the default port react app runs on
+a. 1500
+b. 4100
+c. 3000
+d. 5500
+Answer c

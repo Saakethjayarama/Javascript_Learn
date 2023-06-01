@@ -1,0 +1,15 @@
+input[type="text"],
+button {
+  padding: 10px;
+  font-size: large;
+  margin: 15px;
+}
+
+.App {
+  width: 70%;
+  margin: auto;
+}
+
+.result {
+  margin: 15px;
+}

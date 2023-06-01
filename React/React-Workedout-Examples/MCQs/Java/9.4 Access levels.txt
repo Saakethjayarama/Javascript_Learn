@@ -1,0 +1,108 @@
+1. Which of these access specifiers must be used for main() method?
+a) private
+b) public
+c) protected
+d) none of the mentioned
+
+Answer b
+
+2. Which of these is used to access a member of class before object of that class is created?
+a) public
+b) private
+c) static
+d) protected
+
+Answer c
+
+3. Which of these is used as a default for a member of a class if no access specifier is used for it?
+a) private
+b) public
+c) public, within its own package
+d) protected
+
+Answer a
+
+4. What is the process by which we can control what parts of a program can access the members of a class?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+
+Answer c
+
+5. Which of the following statements are incorrect?
+a) public members of class can be accessed by any code in the program
+b) private members of class can only be accessed by other members of the class
+c) private members of class can be inherited by a subclass, and become protected members in subclass
+d) protected members of a class can be inherited by a subclass, and become private members of the subclass
+
+Answer c
+
+6. What will be the output of the following Java code?
+
+    class access
+    {
+        public int x;
+ 	private int y;
+        void cal(int a, int b)
+        {
+            x =  a + 1;
+            y =  b;
+        }        
+    }    
+    public class access_specifier 
+    {
+        public static void main(String args[])
+        {
+            access obj = new access();   
+            obj.cal(2, 3);
+            System.out.println(obj.x + " " + obj.y);     
+        }
+   }
+a) 3 3
+b) 2 3
+c) Runtime Error
+d) Compilation Error
+
+Answer c
+
+7. What will be the output of the following Java code?
+
+    class access
+    {
+        public int x;
+ 	private int y;
+        void cal(int a, int b)
+        {
+            x =  a + 1;
+            y =  b;
+        }   
+        void print() 
+        {
+            System.out.println(" " + y);     
+        } 
+    }   
+    public class access_specifier 
+    {
+        public static void main(String args[])
+        {
+            access obj = new access();   
+            obj.cal(2, 3);
+            System.out.println(obj.x);
+            obj.print();     
+        }
+   }
+a) 2 3
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+
+Answer b
+
+8. Which of these access specifier must be used for class so that it can be inherited by another subclass?
+a) public
+b) private
+c) protected
+d) none of the mentioned
+
+Answer a
